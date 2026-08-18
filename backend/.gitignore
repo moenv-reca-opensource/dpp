@@ -1,0 +1,11 @@
+/vendor
+.env
+
+# runtime-generated data
+/storage/dpp/index.json
+/storage/dpp/records/*
+!/storage/dpp/records/.gitkeep
+/storage/dpp/repair-records/*
+!/storage/dpp/repair-records/.gitkeep
+/storage/dpp/recycle-records/*
+!/storage/dpp/recycle-records/.gitkeep

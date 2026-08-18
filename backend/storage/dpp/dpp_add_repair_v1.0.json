@@ -1,0 +1,37 @@
+[
+    {
+        "UID": "ef5ce6a6-8716-43a6-9861-2cc80cfe0697",
+        "repair_date": "2025-09-01",
+        "repair_delivery_date": "2025-09-02",
+        "repair_info": [
+            {
+                "repair_type": "1",
+                "component_name": "名稱",
+                "action_date": "2025-09-01",
+                "action_area": "我家",
+                "description": "備註"
+            }
+        ]
+    },
+    {
+        "UID": "17ad98df-6b1b-4aeb-a56f-30ffb59ea3c3",
+        "repair_date": "2025-09-03",
+        "repair_delivery_date": "2025-09-04",
+        "repair_info": [
+            {
+                "repair_type": "1",
+                "component_name": "名稱",
+                "action_date": "2025-09-01",
+                "action_area": "我家",
+                "description": "備註"
+            },
+              {
+                 "repair_type": "2",
+                 "component_name": "名稱2",
+                 "action_date": "2025-09-02",
+                 "action_area": "公司",
+                 "description": "備註2"
+              }
+        ]
+    }
+]

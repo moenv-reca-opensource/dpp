@@ -1,0 +1,232 @@
+{
+  "DPP": [
+    {
+      "DPPClass": 1,
+      "DPPSubClass": 2,
+      "PassportStartDate": "2023-01-01",
+      "PassportEndDate": "2027-12-31",
+      "SerialNo": "BLUEPLANET0P3S095",
+      "MftDate": "2023-01-01",
+      "WarrantyDate": "2027-12-31",
+      "ProdCycleStatus": 1,
+      "DPPStatus": 0,
+	    "DPPSource": 3
+    }
+  ],
+  "DPPInfo": {
+    "GTIN": "4711234560012",
+    "SSCC": "123456789123456000",
+    "BatchLot": "BLUEPLANET123",
+    "TARIC": "8471300000",
+    "UniqueFacilityIdentifierDUNS": "123456789",
+    "UniqueFacilityIdentifierGLN": "",
+    "OrigIn": "TW"
+  },
+  "ProductInfo": {
+    "Model": "Optiplex 790",
+    "ProdName": "BLUEPLANET一號",
+    "FID": "99612345",
+    "CCCCode": "84713000008",
+    "SpecInfo": [
+      {
+        "SpecInfo_Type": "Battery22",
+        "Details": [
+          {
+            "value": "20,40,15,25",
+            "unit": "%",
+            "description": "生命週期階段區分的電池碳足跡，四個階段包括:原材料獲取和預處理；主要產品生產；配送; 報廢和回收",
+            "Temperature": {}
+          }
+        ],
+        "Voltage": [],
+        "Chemistry": {}
+      },
+      {
+        "SpecInfo_Type": "Battery20",
+        "Details": [],
+        "Voltage": [],
+        "Chemistry": {
+          "positive_electrode": [
+            {
+              "name": "氧化鉛",
+              "cas_no": "1317-36-8",
+              "weight": 1
+            }
+          ],
+          "negative_electrode": [
+            {
+              "name": "鉛",
+              "cas_no": "7439-92-1",
+              "weight": 1
+            }
+          ],
+          "electrolyte": [
+            {
+              "name": "硫酸",
+              "cas_no": "7664-93-9",
+              "weight": 5
+            }
+          ],
+          "unit": "",
+          "description": "電池的化學成分,CAS號碼與重量(單位g)"
+        }
+      },
+      {
+        "SpecInfo_Type": "Battery26",
+        "Details": [
+          {
+            "value": "60000",
+            "unit": "Watts",
+            "description": "電池功率能力",
+            "Temperature": {
+              "min": 10,
+              "max": 15,
+              "unit": "°C",
+              "description": "溫度範圍"
+            }
+          },
+          {
+            "value": "30000",
+            "unit": "Watts",
+            "description": "電池功率能力",
+            "Temperature": {
+              "min": 0,
+              "max": 9,
+              "unit": "°C",
+              "description": "溫度範圍"
+            }
+          }
+        ],
+        "Voltage": [],
+        "Chemistry": {}
+      },
+      {
+        "SpecInfo_Type": "Battery25",
+        "Details": [],
+        "Voltage": [
+          {
+            "min": 3.8,
+            "nom": 4,
+            "max": 4.2,
+            "unit": "V",
+            "description": "電池最低、標稱和最高電壓與相關溫度範圍",
+            "Temperature": {
+              "min": 10,
+              "max": 45,
+              "unit": "°C",
+              "description": "溫度範圍"
+            }
+          }
+        ],
+        "Chemistry": {}
+      }
+    ],
+    "CFPValue": 73,
+    "CFPEmissionUnit": "kg CO2e",
+    "CFPFunctionUnit": "台",
+    "CFPDate": "2023-01-01",
+    "ProdInfoLink": {
+      "ProdWebPageLink": "https://www.acer.com/tw-zh/laptops/aspire/aspire-1",
+      "ProductManualLink": "https://www.acer.com/tw-zh/laptops/aspire/aspire-1/manual.pdf",
+      "MaintenanceManualLink": "https://www.acer.com/tw-zh/laptops/aspire/aspire-1/maintenance_manual.pdf"
+    },
+    "Description": "18",
+    "ProdPhoto": {
+      "imgOne": "photo/1606121138_Image.jpg",
+      "imgTwo": null,
+      "imgThree": null
+    }
+  },
+  "MandatoryCertification": [
+    {
+      "CertName": 1,
+      "CertificateNo": "SCS-RC-06552",
+      "CertificationBody": "wood",
+      "CertLink": "http://www.zghhjs.com/upload/UEditorImages/20230302/6381334124448596163833880.jpg",
+      "StartDate": "2023-01-01",
+      "EndDate": "2023-01-01"
+    },
+    {
+      "CertName": null,
+      "CertificateNo": "",
+      "CertificationBody": "",
+      "CertLink": "",
+      "StartDate": "",
+      "EndDate": ""
+    }
+  ],
+  "VoluntaryCertification": [
+    {
+      "CertName": 1,
+      "CertificateNo": "SCS-RC-06552",
+      "CertificationBody": "wood",
+      "CertLink": "http://www.zghhjs.com/upload/UEditorImages/20230302/6381334124448596163833880.jpg",
+      "StartDate": "2023-01-01",
+      "EndDate": "2023-01-01"
+    },
+    {
+      "CertName": null,
+      "CertificateNo": "",
+      "CertificationBody": "",
+      "CertLink": "",
+      "StartDate": "",
+      "EndDate": ""
+    }
+  ],
+  "RepairabilityIndex": [
+    {
+      "RepIdxType": "FR",
+      "Year": 2023,
+      "IdxA": 3.1,
+      "IdxB": 6.5,
+      "IdxC": 1.8,
+      "IdxD": 0.9,
+      "IdxE": 8.5,
+      "IdxF": null
+    }
+  ],
+  "Material": [
+    {
+      "MaterType": 1,
+      "Material": [
+        {
+          "composition_Type": 1,
+          "composition": "銅",
+          "weight": 101,
+          "unit": "101",
+          "error_value": "101",
+          "parts": "",
+          "consumer_time": "",
+          "cas_no": "",
+          "clp_index_no": "",
+          "hazard_class_and_category_code": "",
+          "concentration_range": ""
+        }
+      ],
+      "description": "18"
+    }
+  ],
+  "PEFInfo": [
+    {
+      "AssessmentDate": "2023-01-01",
+      "ImpactCategory": 1,
+      "CharacterizationResult": 123.456,
+      "NormalizationResult": 1.234,
+      "WeightingResult": 0.123,
+      "Unit": "kg CO2 eq",
+      "LifeCycleStage": 1
+    }
+  ],
+  "TradeMark": [
+    {
+      "ApplicationNumber": "110044771",
+      "TrademarkOffice": "TIPO",
+      "TrademarkName": "ASPIRE VERO",
+      "TradeMarkLink": "https://cloud.tipo.gov.tw/S282/SS0/SS0201.jsp?showType=2&caseNo=XpJ13RyT4RWNudnVkdnl0SGFSeDhldmVtT1F3QT09&caseType=1&l6=en_US&isReadBulletinen_US=true&isReadBulletinzh_TW=true",
+      "StartDate": "2021-12-01",
+      "EndDate": "2031-11-30",
+      "CountryCode": "US",
+      "Subdivision": "NY"
+    }
+  ]
+}
