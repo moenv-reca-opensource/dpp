@@ -24,14 +24,20 @@ use Ramsey\Uuid\Uuid;
 // - storage/dpp/records/{UID}.json 為單筆完整資料
 // - storage/dpp/index.json 為列表用摘要索引,避免 dpp.list 需讀取所有完整檔案
 //
-// dpp.add / dpp.import 收到的是一份「文件」(格式同 storage/dpp/dpp_add_bettery_v1.0.json 範例):
+// dpp.add / dpp.import 收到的是一份「文件」(格式同前端 dpp_add_battery_v1.0.json 匯入範本):
 // DPPInfo/ProductInfo 等區塊為共用資料,DPP 陣列則可能同時申報多個序號(SerialNo)各自的護照,
 // 因此 DPP 陣列的每個元素展開為一筆獨立記錄,並各自持有一份共用區塊的複本。
 class DppRepository
 {
-    private const SHARED_SECTIONS = [
+    // 物件型共用區塊：modify 沒帶到的欄位視為沿用舊值(對齊原版 UPDATE ... SET 只動有帶的欄位)
+    private const MERGE_SECTIONS = [
         'DPPInfo',
         'ProductInfo',
+    ];
+
+    // 陣列型共用區塊：對齊原版「整段刪除再依 payload 重建」,modify 沒帶到該區塊視為清空,
+    // 故不查 $fallback——呼叫端要保留舊資料就必須把完整內容原樣送回來
+    private const REPLACE_SECTIONS = [
         'MandatoryCertification',
         'VoluntaryCertification',
         'RepairabilityIndex',
@@ -151,6 +157,28 @@ class DppRepository
         return is_array($record) ? $this->withDppId($record) : null;
     }
 
+    public function findByDppId(string $dppId): ?array
+    {
+        $normalizedDppId = str_replace(' ', '', $dppId);
+        if ($normalizedDppId === '') {
+            return null;
+        }
+
+        foreach (glob($this->recordsDir . '/*.json') ?: [] as $path) {
+            $record = json_decode((string) file_get_contents($path), true);
+            if (!is_array($record)) {
+                continue;
+            }
+
+            $recordWithDppId = $this->withDppId($record);
+            if ($recordWithDppId['DPPID'] === $normalizedDppId) {
+                return $recordWithDppId;
+            }
+        }
+
+        return null;
+    }
+
     // $document 格式同 dpp.add / dpp.import 的輸入:{"DPP": [...], "DPPInfo": {...}, "ProductInfo": {...}, ...}
     // DPP 陣列每個元素展開成一筆獨立記錄,缺少 SerialNo 的元素視為錯誤,不中斷整批處理
     public function create(array $document): array
@@ -183,6 +211,16 @@ class DppRepository
             $invalidDateFields = $this->normalizeDateFields($entry);
             if ($invalidDateFields !== []) {
                 $errors[] = ['index' => $index, 'error' => implode(', ', $invalidDateFields) . ' must be a valid date'];
+                continue;
+            }
+
+            $dppId = $this->buildDppId(
+                (string) ($document['DPPInfo']['GTIN'] ?? ''),
+                (string) ($document['DPPInfo']['BatchLot'] ?? ''),
+                (string) ($entry['SerialNo'] ?? '')
+            );
+            if ($this->dppIdExists($dppId)) {
+                $errors[] = ['index' => $index, 'error' => 'DPPID duplicate, entry not created'];
                 continue;
             }
 
@@ -232,6 +270,16 @@ class DppRepository
             );
         }
 
+        $dppInfo = $document['DPPInfo'] ?? $existing['DPPInfo'] ?? [];
+        $dppId = $this->buildDppId(
+            (string) ($dppInfo['GTIN'] ?? ''),
+            (string) ($dppInfo['BatchLot'] ?? ''),
+            (string) ($entry['SerialNo'] ?? $existing['SerialNo'] ?? '')
+        );
+        if ($this->dppIdExists($dppId, $uid)) {
+            throw new ValidationException('DPPID duplicate, entry not updated', ['DPP.0.SerialNo']);
+        }
+
         $record = $this->buildRecord($uid, $entry, $document, $existing['createdAt'], $this->now(), $existing);
         $this->writeRecord($record);
         $this->upsertIndex($record);
@@ -252,6 +300,9 @@ class DppRepository
 
         $record = [
             'UID' => $uid,
+            // 對齊原版 DPP 表的 EORIID(所屬經濟營運者代碼);專案暫無多組織機制,
+            // 故不隨 entry/document 輸入,一律蓋上部署環境的固定值
+            'EORIID' => (string) getenv('EORIID'),
             'DPPClass' => $get('DPPClass'),
             'DPPSubClass' => $get('DPPSubClass'),
             'PassportStartDate' => $get('PassportStartDate'),
@@ -260,14 +311,21 @@ class DppRepository
             'MftDate' => $get('MftDate'),
             'WarrantyDate' => $get('WarrantyDate'),
             'ProdCycleStatus' => $get('ProdCycleStatus'),
-            'DPPStatus' => $get('DPPStatus', 0),
-            'DPPSource' => $get('DPPSource'),
+            // modify 不可改動狀態(對齊原版,狀態變更需走專屬的 dpp.upd_status):
+            // 有 $fallback(= update)一律沿用舊值,只有 create 時才採用 entry 傳入值
+            'DPPStatus' => $fallback !== null ? ($fallback['DPPStatus'] ?? 0) : $get('DPPStatus', 0),
+            // 未帶 DPPSource 時預設為手動新增(1),對齊 dpp.add 呼叫情境的填入規則
+            'DPPSource' => $get('DPPSource', DppSource::ManualEntry->value),
             'createdAt' => $createdAt,
             'updatedAt' => $updatedAt,
         ];
 
-        foreach (self::SHARED_SECTIONS as $section) {
+        foreach (self::MERGE_SECTIONS as $section) {
             $record[$section] = $document[$section] ?? $fallback[$section] ?? [];
+        }
+
+        foreach (self::REPLACE_SECTIONS as $section) {
+            $record[$section] = $document[$section] ?? [];
         }
 
         return $record;
@@ -296,6 +354,35 @@ class DppRepository
             . '21' . str_replace(' ', '', $serialNo);
     }
 
+    // 逐筆掃描既有記錄檔比對 DPPID(GTIN/BatchLot/SerialNo 組合),避免同一組合被建立第二筆;
+    // 同一批 create() 呼叫內,前面筆數已 writeRecord() 落地,故此檢查同時涵蓋批次內部的重複。
+    // update() 呼叫時需傳入 $excludeUid(自己),否則改別的欄位也會被自己的舊 DPPID 擋下來
+    private function dppIdExists(string $dppId, ?string $excludeUid = null): bool
+    {
+        foreach (glob($this->recordsDir . '/*.json') ?: [] as $path) {
+            $record = json_decode((string) file_get_contents($path), true);
+            if (!is_array($record)) {
+                continue;
+            }
+
+            if ($excludeUid !== null && ($record['UID'] ?? null) === $excludeUid) {
+                continue;
+            }
+
+            $dppInfo = $record['DPPInfo'] ?? [];
+            $existingDppId = $this->buildDppId(
+                (string) ($dppInfo['GTIN'] ?? ''),
+                (string) ($dppInfo['BatchLot'] ?? ''),
+                (string) ($record['SerialNo'] ?? '')
+            );
+            if ($existingDppId === $dppId) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     // 彙整共用區塊的所有檢查（長度上限、擇一有值、日期格式），並就地正規化 $document
     // 內合法的日期欄位；任一項不通過即擲出 ValidationException，不寫入任何檔案
     private function validateDocument(array &$document, ?array $fallback = null): void
@@ -304,8 +391,8 @@ class DppRepository
 
         $errors = $this->validateSharedSections($document, $fallback);
         $errors = array_merge($errors, $this->validateConditionalProductInfoFields($document, $isBattery, $fallback));
-        $errors = array_merge($errors, $this->validateSectionArrayEnums($document, $fallback));
-        $errors = array_merge($errors, $this->validateMaterialConditionalFields($document, $fallback, $isBattery));
+        $errors = array_merge($errors, $this->validateSectionArrayEnums($document));
+        $errors = array_merge($errors, $this->validateMaterialConditionalFields($document, $isBattery));
         $errors = array_merge($errors, $this->validateSpecInfoFields($document, $fallback, $isBattery));
 
         $invalidDateFields = $this->normalizeSharedSectionDates($document);
@@ -480,19 +567,22 @@ class DppRepository
     // 檢查各共用區塊陣列中,採固定代碼表(enum/ParamGroup)的欄位：MandatoryCertification/
     // VoluntaryCertification 的 CertName、Material 的 MaterType 與巢狀 Material[].composition_type、
     // PEFInfo 的 ImpactCategory/LifeCycleStage；有提供值時才檢查代碼合法性,未提供則略過
-    private function validateSectionArrayEnums(array $document, ?array $fallback = null): array
+    // MandatoryCertification/VoluntaryCertification/Material/PEFInfo 屬 REPLACE_SECTIONS(整段
+    // 刪除重建),modify 沒帶到就視為清空,故此處只看 $document,不查 $fallback——避免驗證用舊資料
+    // 通過,實際落地卻因未帶該區塊被清空,兩者結果不一致
+    private function validateSectionArrayEnums(array $document): array
     {
         $errors = [];
         $errors = array_merge(
             $errors,
-            $this->validateCertNameEnum($document, $fallback, 'MandatoryCertification', MCertName::class)
+            $this->validateCertNameEnum($document, 'MandatoryCertification', MCertName::class)
         );
         $errors = array_merge(
             $errors,
-            $this->validateCertNameEnum($document, $fallback, 'VoluntaryCertification', VCertName::class)
+            $this->validateCertNameEnum($document, 'VoluntaryCertification', VCertName::class)
         );
 
-        $material = $document['Material'] ?? $fallback['Material'] ?? [];
+        $material = $document['Material'] ?? [];
         if (is_array($material)) {
             foreach ($material as $index => $item) {
                 if (!is_array($item)) {
@@ -510,7 +600,7 @@ class DppRepository
                         continue;
                     }
 
-                    // 規格文件寫作 composition_type,範例檔(dpp_add_bettery_v1.0.json)實際鍵名為
+                    // 規格文件寫作 composition_type,前端匯入範本(dpp_add_battery_v1.0.json)實際鍵名為
                     // composition_Type,兩種鍵名皆接受,避免因大小寫落差誤判缺漏
                     $compositionType = $sub['composition_type'] ?? $sub['composition_Type'] ?? null;
                     if (!$this->isMissing($compositionType)
@@ -522,7 +612,7 @@ class DppRepository
             }
         }
 
-        $pefInfo = $document['PEFInfo'] ?? $fallback['PEFInfo'] ?? [];
+        $pefInfo = $document['PEFInfo'] ?? [];
         if (is_array($pefInfo)) {
             foreach ($pefInfo as $index => $item) {
                 if (!is_array($item)) {
@@ -545,9 +635,9 @@ class DppRepository
     }
 
     // MandatoryCertification/VoluntaryCertification 陣列共用的 CertName 代碼檢查
-    private function validateCertNameEnum(array $document, ?array $fallback, string $section, string $enumClass): array
+    private function validateCertNameEnum(array $document, string $section, string $enumClass): array
     {
-        $items = $document[$section] ?? $fallback[$section] ?? [];
+        $items = $document[$section] ?? [];
         if (!is_array($items)) {
             return [];
         }
@@ -573,9 +663,9 @@ class DppRepository
     //    MATERIAL_COMPOSITION_REQUIRED_WHEN),此規則與 DPPClass 無關
     // MaterType 代碼本身不合法的項目已由 validateSectionArrayEnums 標記錯誤,此處僅略過
     // 不列入涵蓋範圍/條件判斷,避免同一筆資料重複報錯
-    private function validateMaterialConditionalFields(array $document, ?array $fallback, bool $isBattery): array
+    private function validateMaterialConditionalFields(array $document, bool $isBattery): array
     {
-        $material = $document['Material'] ?? $fallback['Material'] ?? [];
+        $material = $document['Material'] ?? [];
         if (!is_array($material)) {
             return [];
         }

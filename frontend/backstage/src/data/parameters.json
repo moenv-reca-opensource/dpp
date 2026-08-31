@@ -1,0 +1,135 @@
+{
+  "DPPClass": [
+    { "code": "1", "param_name": "電池", "param_en_name": "Battery" }
+  ],
+  "DPPSubClass": [
+    { "code": "1", "param_name": "二次鋰電池", "param_en_name": "Secondary Lithium Battery", "param_purpose": "DPPClass1" },
+    { "code": "2", "param_name": "電動車用電池", "param_en_name": "EV", "param_purpose": "DPPClass1" },
+    { "code": "3", "param_name": "輕型交通工具用電池", "param_en_name": "LMT", "param_purpose": "DPPClass1" },
+    { "code": "4", "param_name": "工業電池", "param_en_name": "IND", "param_purpose": "DPPClass1" }
+  ],
+  "DPPSource": [
+    { "code": "1", "param_name": "手動新增", "param_en_name": "Manual Entry" },
+    { "code": "2", "param_name": "API串接", "param_en_name": "API Integration" },
+    { "code": "3", "param_name": "整批匯入", "param_en_name": "Batch Import" }
+  ],
+  "DPPStatus": [
+    { "code": "0", "param_name": "初始(剛新增)", "param_en_name": "Initial (Just Added)" },
+    { "code": "1", "param_name": "上架", "param_en_name": "Published" },
+    { "code": "2", "param_name": "下架", "param_en_name": "Unpublished" }
+  ],
+  "ProdCycleStatus": [
+    { "code": "1", "param_name": "原裝", "param_en_name": "Original" },
+    { "code": "2", "param_name": "使用中", "param_en_name": "In Use" },
+    { "code": "3", "param_name": "再使用", "param_en_name": "Reused" },
+    { "code": "4", "param_name": "再製造", "param_en_name": "Remanufactured" },
+    { "code": "5", "param_name": "廢棄", "param_en_name": "Waste" },
+    { "code": "9", "param_name": "其他", "param_en_name": "Other" },
+    { "code": "11", "param_name": "廠庫", "param_en_name": "Factory Inventory" },
+    { "code": "12", "param_name": "銷庫", "param_en_name": "Sales Inventory" },
+    { "code": "14", "param_name": "回收", "param_en_name": "Recycle" },
+    { "code": "15", "param_name": "報廢", "param_en_name": "Disposal" }
+  ],
+  "MCertName": [
+    { "code": "1", "param_name": "SCS標準", "param_en_name": "Supply Chain Security" },
+    { "code": "2", "param_name": "GRS標準", "param_en_name": "Global Recycled Standard" },
+    { "code": "3", "param_name": "RCS標準", "param_en_name": "Recycled Claim Standard" },
+    { "code": "4", "param_name": "CFV盤查認證", "param_en_name": "CFV" },
+    { "code": "5", "param_name": "CE標誌", "param_en_name": "CE Marking" }
+  ],
+  "VCertName": [
+    { "code": "1", "param_name": "SCS標準", "param_en_name": "Supply Chain Security" },
+    { "code": "2", "param_name": "GRS標準", "param_en_name": "Global Recycled Standard" },
+    { "code": "3", "param_name": "RCS標準", "param_en_name": "Recycled Claim Standard" },
+    { "code": "4", "param_name": "CFV盤查認證", "param_en_name": "CFV" },
+    { "code": "5", "param_name": "CE標誌", "param_en_name": "CE Marking" }
+  ],
+  "MaterType": [
+    { "code": "1", "param_name": "材料組成成分", "param_en_name": "Material Composition" },
+    { "code": "2", "param_name": "關鍵材料組成成分", "param_en_name": "Critical Material" },
+    { "code": "3", "param_name": "有害成分", "param_en_name": "Hazardous Substances" },
+    { "code": "5", "param_name": "使用的可再生材料", "param_en_name": "Renewable Material" },
+    { "code": "6", "param_name": "產品內關注物質", "param_en_name": "Substance Of Concern" }
+  ],
+  "CompositionType": [
+    { "code": "1", "param_name": "金屬", "param_en_name": "Metal" },
+    { "code": "2", "param_name": "塑膠", "param_en_name": "Plastic" },
+    { "code": "3", "param_name": "紡織纖維", "param_en_name": "Textile Fiber" },
+    { "code": "4", "param_name": "再生聚酯", "param_en_name": "Recycled Polyester" }
+  ],
+  "SpecInfoType": [
+    { "code": "Battery1", "param_name": "預期使用壽命(年)", "param_en_name": "Expected Battery Lifetime in Years", "param_purpose": "DPPClass1" },
+    { "code": "Battery2", "param_name": "電動車製造商", "param_en_name": "EV Manufacturer", "param_purpose": "DPPClass1" },
+    { "code": "Battery3", "param_name": "電動車組裝國", "param_en_name": "Country of EV Assembly", "param_purpose": "DPPClass1" },
+    { "code": "Battery4", "param_name": "電池生產商", "param_en_name": "Battery Producer", "param_purpose": "DPPClass1" },
+    { "code": "Battery5", "param_name": "電池生產國", "param_en_name": "Country of Battery Production", "param_purpose": "DPPClass1" },
+    { "code": "Battery6", "param_name": "電芯生產商", "param_en_name": "Battery Cell Producer", "param_purpose": "DPPClass1" },
+    { "code": "Battery7", "param_name": "電芯生產國", "param_en_name": "Country of Cell Production", "param_purpose": "DPPClass1" },
+    { "code": "Battery8", "param_name": "電池類型", "param_en_name": "Battery Type", "param_purpose": "DPPClass1" },
+    { "code": "Battery9", "param_name": "額定容量(Ah)", "param_en_name": "Rated capacity (in Ah)", "param_purpose": "DPPClass1" },
+    { "code": "Battery10", "param_name": "電芯型態", "param_en_name": "Battery Cell type", "param_purpose": "DPPClass1" },
+    { "code": "Battery11", "param_name": "每個電池的電池芯數", "param_en_name": "Number of Cell per Battery", "param_purpose": "DPPClass1" },
+    { "code": "Battery12", "param_name": "電池總能量(kWh)", "param_en_name": "Total Energy", "param_purpose": "DPPClass1" },
+    { "code": "Battery13", "param_name": "電池往返能源效率(%)", "param_en_name": "Battery Round Trip Efficiency", "param_purpose": "DPPClass1" },
+    { "code": "Battery14", "param_name": "電池重量(kg)", "param_en_name": "Weight", "param_purpose": "DPPClass1" },
+    { "code": "Battery15", "param_name": "電池不使用時的可承受溫度(°C)", "param_en_name": "Temperature Range (Min-Max)", "param_purpose": "DPPClass1" },
+    { "code": "Battery16", "param_name": "電池充放電率(C)", "param_en_name": "C-rate", "param_purpose": "DPPClass1" },
+    { "code": "Battery17", "param_name": "註冊商號", "param_en_name": "Registered Trade Name", "param_purpose": "DPPClass1" },
+    { "code": "Battery18", "param_name": "註冊商標", "param_en_name": "Registered Trade Mark", "param_purpose": "DPPClass1" },
+    { "code": "Battery19", "param_name": "產品電子郵件信箱", "param_en_name": "Email Address", "param_purpose": "DPPClass1" },
+    { "code": "Battery20", "param_name": "電池的化學成分、CAS號碼與重量(單位g)", "param_en_name": "Chemistry", "param_purpose": "DPPClass1" },
+    { "code": "Battery21", "param_name": "可用滅火劑", "param_en_name": "Usable Extinguishing Agent", "param_purpose": "DPPClass1" },
+    { "code": "Battery22", "param_name": "生命週期階段區分的電池碳足跡", "param_en_name": "Carbon Footprint of Life cycle Stages", "param_purpose": "DPPClass1" },
+    { "code": "Battery23", "param_name": "碳足跡性能等級", "param_en_name": "Carbon Footprint Performance Class", "param_purpose": "DPPClass1" },
+    { "code": "Battery24", "param_name": "碳足跡值的估算依據之web連結", "param_en_name": "Web Link of Carbon Footprint Values Reference", "param_purpose": "DPPClass1" },
+    { "code": "Battery25", "param_name": "電池最低、標稱和最高電壓與相關溫度範圍", "param_en_name": "Voltage (Min-Nom-Max) and Relevant Temperature Range", "param_purpose": "DPPClass1" },
+    { "code": "Battery26", "param_name": "電池功率能力與相關溫度範圍", "param_en_name": "Power Capability and Relevant Temperature Range", "param_purpose": "DPPClass1" },
+    { "code": "Battery27", "param_name": "預估電池壽命(循環)", "param_en_name": "Expected Battery Lifetime in Cycles", "param_purpose": "DPPClass1" },
+    { "code": "Battery28", "param_name": "預估電池壽命(循環)所使用的參考測試方式", "param_en_name": "Expected Battery Lifetime Reference", "param_purpose": "DPPClass1" },
+    { "code": "Battery29", "param_name": "耗盡的容量閾值(僅適用於電動車電池)", "param_en_name": "Capacity Threshold for Exhaustion", "param_purpose": "DPPClass1" },
+    { "code": "Battery30", "param_name": "初始電池單元(cell)之電阻", "param_en_name": "Initial Internal Resistance on battery cell level", "param_purpose": "DPPClass1" },
+    { "code": "Battery31", "param_name": "初始電池組(pack)之電阻", "param_en_name": "Initial Internal Resistance on battery pack level", "param_purpose": "DPPClass1" },
+    { "code": "Battery32", "param_name": "初始的能源往返效率", "param_en_name": "Initial Round Trip Energy Efficiency", "param_purpose": "DPPClass1" },
+    { "code": "Battery33", "param_name": "循環壽命50%的能源往返效率", "param_en_name": "Round Trip Energy Efficiency at 50% of Cycle Life", "param_purpose": "DPPClass1" },
+    { "code": "Battery34", "param_name": "可證明符合電池指令法規或在其基礎上通過的任何措施或授權法案所規定的要求之測試報告的結果", "param_en_name": "Results of tests reports", "param_purpose": "DPPClass1" },
+    { "code": "Battery35", "param_name": "電池種類", "param_en_name": "Battery category", "param_purpose": "DPPClass1" },
+    { "code": "Battery36", "param_name": "歐盟符合性聲明ID", "param_en_name": "ID of EU declaration of conformity", "param_purpose": "DPPClass1" },
+    { "code": "Battery37", "param_name": "電池的製造日期或（如果適用）投入使用的日期", "param_en_name": "Date of Putting the Battery into Service", "param_purpose": "DPPClass1" },
+    { "code": "Battery38", "param_name": "最大電池功率能力", "param_en_name": "Maximum permitted battery power", "param_purpose": "DPPClass1" },
+    { "code": "Battery39", "param_name": "初始自放電率與相關溫度範圍", "param_en_name": "Initial Self-Discharging Rate", "param_purpose": "DPPClass1" },
+    { "code": "Battery40", "param_name": "電池在其預期使用壽命期間提供的總能量中每kWh產生的二氧化碳量(kg)計算", "param_en_name": "Carbon Footprint of the Battery", "param_purpose": "DPPClass1" }
+  ],
+  "ImpactCategory": [
+    { "code": "1", "param_name": "溫室效應", "param_en_name": "Climate change(kg CO2 eq)" },
+    { "code": "2", "param_name": "臭氧層破壞", "param_en_name": "Ozone Depletion(kg CFC-11 eq)" },
+    { "code": "3", "param_name": "對淡水生態毒性", "param_en_name": "Ecotoxicity freshwater(CTUe)" },
+    { "code": "4", "param_name": "人類毒性-癌症", "param_en_name": "Human Toxicity, cancer(CTUh)" },
+    { "code": "5", "param_name": "人類毒性-非癌症", "param_en_name": "Human Toxicity, non-cancer(CTUh)" },
+    { "code": "6", "param_name": "顆粒物質", "param_en_name": "Particulate matter(Disease incidences)" },
+    { "code": "7", "param_name": "電離輻射-人體健康影響", "param_en_name": "Ionising radiation , human health(kBq U235 eq)" },
+    { "code": "8", "param_name": "光化學臭氧形成", "param_en_name": "Photochemical ozone formation, human health(kg NMVOC eq)" },
+    { "code": "9", "param_name": "酸化", "param_en_name": "Acidification(mol H+ eq)" },
+    { "code": "10", "param_name": "優養化-陸地", "param_en_name": "Eutrophication, terrestrial(mol N eq)" },
+    { "code": "11", "param_name": "優養化-淡水", "param_en_name": "Eutrophication, freshwater(kg P eq)" },
+    { "code": "12", "param_name": "優養化-海水", "param_en_name": "Eutrophication, marine(kg N eq)" },
+    { "code": "13", "param_name": "資源耗竭-水", "param_en_name": "Water use(m3 world eq. deprived water)" },
+    { "code": "14", "param_name": "資源耗竭-礦物與金屬", "param_en_name": "Resource Use, minerals and metals(kg Sb eq)" },
+    { "code": "15", "param_name": "資源耗竭-化石燃料", "param_en_name": "Resource use, fossil(MJ)" },
+    { "code": "16", "param_name": "土地使用", "param_en_name": "Land use(Dimensionless (pt))" }
+  ],
+  "LifeCycleStage": [
+    { "code": "1", "param_name": "原料階段", "param_en_name": "Raw material acquisition and pre-processing" },
+    { "code": "2", "param_name": "製造階段", "param_en_name": "Production of the main product" },
+    { "code": "3", "param_name": "運輸階段", "param_en_name": "Product distribution and storage" },
+    { "code": "4", "param_name": "使用階段", "param_en_name": "Use stage" },
+    { "code": "5", "param_name": "棄置或回收階段", "param_en_name": "End of life" }
+  ],
+  "repair_type": [
+    { "code": "1", "param_name": "維修", "param_en_name": "Repair" },
+    { "code": "2", "param_name": "更換", "param_en_name": "Replace" }
+  ],
+  "recycle_type": [
+    { "code": "1", "param_name": "回收", "param_en_name": "Recycle" },
+    { "code": "2", "param_name": "報廢", "param_en_name": "Disposal" }
+  ]
+}

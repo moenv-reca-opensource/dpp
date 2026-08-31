@@ -9,8 +9,8 @@ use Exception;
 // 維修紀錄以檔案儲存(專案暫無 DB),每筆護照(UID)可累積多次匯入的維修紀錄:
 // - storage/dpp/repair-records/{UID}.json 為該護照全部維修紀錄的陣列
 //
-// dpp.import_repair 收到的文件格式同 storage/dpp/dpp_add_repair_v1.0.json 範例:陣列每個
-// 元素為一次維修作業,對應既有護照的 UID,repair_info[] 為該次維修的元件明細。比照
+// dpp.import_repair 收到的文件為陣列,每個元素代表一次維修作業,對應既有護照的 UID,
+// repair_info[] 為該次維修的元件明細。比照
 // DppRepository::create() 的批次處理方式,每個元素各自獨立驗證與寫入,單一元素(UID 查無
 // 護照、必填缺漏、代碼表不合法等)驗證失敗不影響其餘元素的匯入。
 class RepairRepository
@@ -43,7 +43,7 @@ class RepairRepository
         return is_array($records) ? $records : [];
     }
 
-    // $document 為陣列,每個元素代表一次維修作業(見 dpp_add_repair_v1.0.json 範例)
+    // $document 為陣列,每個元素代表一次維修作業
     public function importBatch(array $document): array
     {
         $imported = [];

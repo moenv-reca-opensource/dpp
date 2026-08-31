@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254 100" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Digital Product Passport</title>
+  <g transform="translate(10 18)">
+    <path
+      fill="#0b2d28"
+      d="M25 8h14v5h5a7 7 0 0 1 7 7v31a7 7 0 0 1-7 7H20a7 7 0 0 1-7-7V20a7 7 0 0 1 7-7h5V8ZM20 20v31h24V20H20Z" />
+    <path fill="#b8dc50" d="M35 23l-9 15h7l-4 11 10-16h-7l3-10Z" />
+  </g>
+  <text
+    x="88"
+    y="53"
+    textLength="76"
+    font-family="system-ui, -apple-system, 'Segoe UI', 'Noto Sans TC', sans-serif"
+    font-size="36"
+    font-weight="700"
+    fill="#0b2d28">
+    DPP
+  </text>
+  <text
+    x="89"
+    y="75"
+    textLength="151"
+    font-family="system-ui, -apple-system, 'Segoe UI', 'Noto Sans TC', sans-serif"
+    font-size="13"
+    fill="#5b6b66">
+    Digital Product Passport
+  </text>
+</svg>
