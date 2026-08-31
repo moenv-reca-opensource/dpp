@@ -1,0 +1,1502 @@
+[
+    {
+        "country_code_id": "f526bada-b2a8-46be-b8d2-3ad471b630f9",
+        "country_code": "ZW",
+        "country_name_zh": "辛巴威",
+        "country_name_en": "Zimbabwe"
+    },
+    {
+        "country_code_id": "3b89fb92-f43c-4d49-9713-ba2695667e74",
+        "country_code": "ZM",
+        "country_name_zh": "尚比亞",
+        "country_name_en": "Zambia"
+    },
+    {
+        "country_code_id": "e982d6f3-7ed0-445d-818b-e45ac7775592",
+        "country_code": "ZA",
+        "country_name_zh": "南非",
+        "country_name_en": "South Africa"
+    },
+    {
+        "country_code_id": "003fdf1d-21a8-492e-9274-21fdabea219c",
+        "country_code": "YT",
+        "country_name_zh": "馬約特島",
+        "country_name_en": "Mayotte"
+    },
+    {
+        "country_code_id": "7136cc4b-fbf3-4736-89f5-64be3c928f15",
+        "country_code": "YE",
+        "country_name_zh": "葉門",
+        "country_name_en": "Yemen"
+    },
+    {
+        "country_code_id": "59451ebb-d1fc-4589-8042-106f7d4877c9",
+        "country_code": "WS",
+        "country_name_zh": "薩摩亞",
+        "country_name_en": "Samoa"
+    },
+    {
+        "country_code_id": "4390270c-2392-4023-ad00-56adc58eef93",
+        "country_code": "WF",
+        "country_name_zh": "瓦利斯和富圖那群島",
+        "country_name_en": "Wallis and Futuna"
+    },
+    {
+        "country_code_id": "a3302d40-a4e7-4d7e-8987-685a0ff8be66",
+        "country_code": "VU",
+        "country_name_zh": "萬那杜",
+        "country_name_en": "Vanuatu"
+    },
+    {
+        "country_code_id": "ee2a70f7-fb4b-4a8f-bbff-e2d6098ae234",
+        "country_code": "VN",
+        "country_name_zh": "越南",
+        "country_name_en": "Viet Nam"
+    },
+    {
+        "country_code_id": "885d7d40-b61a-46a0-b80d-23a917ccf555",
+        "country_code": "VI",
+        "country_name_zh": "美屬維京群島",
+        "country_name_en": "Virgin Islands (U.S.)"
+    },
+    {
+        "country_code_id": "ee35b369-e5f3-4677-a6b8-89d06083666d",
+        "country_code": "VG",
+        "country_name_zh": "英屬維京群島",
+        "country_name_en": "Virgin Islands (British)"
+    },
+    {
+        "country_code_id": "00d30e43-06fb-4308-9a92-0ead32abe7af",
+        "country_code": "VE",
+        "country_name_zh": "委內瑞拉",
+        "country_name_en": "Venezuela (Bolivarian Republic of)"
+    },
+    {
+        "country_code_id": "200342cd-6a52-472e-805c-f8b52b46e303",
+        "country_code": "VC",
+        "country_name_zh": "聖文森及格瑞那丁",
+        "country_name_en": "Saint Vincent and the Grenadines"
+    },
+    {
+        "country_code_id": "13dd54f1-cfdd-401b-aa1b-bb981036b0b3",
+        "country_code": "UZ",
+        "country_name_zh": "烏茲別克",
+        "country_name_en": "Uzbekistan"
+    },
+    {
+        "country_code_id": "05aec5ce-4e3c-4626-a760-3ee47a4147c1",
+        "country_code": "UY",
+        "country_name_zh": "烏拉圭",
+        "country_name_en": "Uruguay"
+    },
+    {
+        "country_code_id": "3519afef-b15f-43c6-8359-7beac42b0d5a",
+        "country_code": "US",
+        "country_name_zh": "美國",
+        "country_name_en": "United States"
+    },
+    {
+        "country_code_id": "bc008929-0f38-4ad5-ba6d-3ca0a4f85c51",
+        "country_code": "UM",
+        "country_name_zh": "美屬邊疆群島",
+        "country_name_en": "United States Minor Outlying Islands"
+    },
+    {
+        "country_code_id": "bef2ef29-a590-44cf-b706-4f34a90ff198",
+        "country_code": "UG",
+        "country_name_zh": "烏干達",
+        "country_name_en": "Uganda"
+    },
+    {
+        "country_code_id": "f8f0d7cb-288d-4c98-aef5-aed7948c0f33",
+        "country_code": "UA",
+        "country_name_zh": "烏克蘭",
+        "country_name_en": "Ukraine"
+    },
+    {
+        "country_code_id": "eaac3ae5-52ae-45a5-81f8-947b4c8d7db4",
+        "country_code": "TZ",
+        "country_name_zh": "坦尚尼亞",
+        "country_name_en": "Tanzania (the United Republic of)"
+    },
+    {
+        "country_code_id": "026938c1-f5d7-4c53-acc5-91672d49d7f7",
+        "country_code": "TW",
+        "country_name_zh": "臺灣",
+        "country_name_en": "Taiwan"
+    },
+    {
+        "country_code_id": "8c821db0-e5bf-4ca7-b06e-409fb74a4f6c",
+        "country_code": "TV",
+        "country_name_zh": "吐瓦魯",
+        "country_name_en": "Tuvalu"
+    },
+    {
+        "country_code_id": "cdca09db-8dcd-4e9b-b952-5246291807bf",
+        "country_code": "TT",
+        "country_name_zh": "千里達及托巴哥",
+        "country_name_en": "Trinidad and Tobago"
+    },
+    {
+        "country_code_id": "85b8d282-314e-4bff-9b7d-17193cb4221c",
+        "country_code": "TR",
+        "country_name_zh": "土耳其",
+        "country_name_en": "Türkiye"
+    },
+    {
+        "country_code_id": "d9a16b19-f531-4e1d-8d74-e99c6410d92a",
+        "country_code": "TO",
+        "country_name_zh": "東加",
+        "country_name_en": "Tonga"
+    },
+    {
+        "country_code_id": "ce249265-8a7c-4c5e-806e-7fa565e24fa7",
+        "country_code": "TN",
+        "country_name_zh": "突尼西亞",
+        "country_name_en": "Tunisia"
+    },
+    {
+        "country_code_id": "56e1fda1-156b-459c-8aff-076c0540ca29",
+        "country_code": "TM",
+        "country_name_zh": "土庫曼",
+        "country_name_en": "Turkmenistan"
+    },
+    {
+        "country_code_id": "149aeea3-3aa9-4c5a-bcf6-c4ccb176a819",
+        "country_code": "TL",
+        "country_name_zh": "東帝汶",
+        "country_name_en": "Timor-Leste"
+    },
+    {
+        "country_code_id": "b89745c3-e41e-462b-a32f-77f125ade836",
+        "country_code": "TK",
+        "country_name_zh": "托克勞群島",
+        "country_name_en": "Tokelau"
+    },
+    {
+        "country_code_id": "ec305586-d8a8-4272-8867-2b1d55626cda",
+        "country_code": "TJ",
+        "country_name_zh": "塔吉克",
+        "country_name_en": "Tajikistan"
+    },
+    {
+        "country_code_id": "b97030e6-a294-4c06-94e2-bce7c3667e0a",
+        "country_code": "TH",
+        "country_name_zh": "泰國",
+        "country_name_en": "Thailand"
+    },
+    {
+        "country_code_id": "e4c75b28-c76d-45a5-84cb-e8afc6e1cf38",
+        "country_code": "TG",
+        "country_name_zh": "多哥",
+        "country_name_en": "Togo"
+    },
+    {
+        "country_code_id": "5cbe7dca-e878-4647-bc86-5a0797df5e92",
+        "country_code": "TF",
+        "country_name_zh": "法屬南部屬地",
+        "country_name_en": "French Southern Territories"
+    },
+    {
+        "country_code_id": "d6dab852-c351-4693-8afa-35c497e520e7",
+        "country_code": "TD",
+        "country_name_zh": "查德",
+        "country_name_en": "Chad"
+    },
+    {
+        "country_code_id": "058ab99b-064d-46a6-a02e-f36ff3c49c56",
+        "country_code": "TC",
+        "country_name_zh": "土克凱可群島",
+        "country_name_en": "Turks and Caicos Islands"
+    },
+    {
+        "country_code_id": "df9dc976-82fc-43a8-82d8-0353f914d77b",
+        "country_code": "SZ",
+        "country_name_zh": "史瓦帝尼",
+        "country_name_en": "Eswatini"
+    },
+    {
+        "country_code_id": "984c832b-6e79-4d96-965b-d522795875d7",
+        "country_code": "SY",
+        "country_name_zh": "敘利亞",
+        "country_name_en": "Syrian Arab Republic"
+    },
+    {
+        "country_code_id": "07a71405-5e98-4642-93c7-d844060d3583",
+        "country_code": "SX",
+        "country_name_zh": "聖馬丁(荷屬)",
+        "country_name_en": "Sint Maarten (Dutch part)"
+    },
+    {
+        "country_code_id": "f5a4f7ab-56ff-407c-84b3-6b07d3afcdc2",
+        "country_code": "SV",
+        "country_name_zh": "薩爾瓦多",
+        "country_name_en": "El Salvador"
+    },
+    {
+        "country_code_id": "ca70f366-68de-4674-ae79-4e2b48f5cb75",
+        "country_code": "ST",
+        "country_name_zh": "聖多美普林西比",
+        "country_name_en": "Sao Tome and Principe"
+    },
+    {
+        "country_code_id": "eff581cf-0c54-4972-923a-c4207ff36558",
+        "country_code": "SS",
+        "country_name_zh": "南蘇丹",
+        "country_name_en": "South Sudan"
+    },
+    {
+        "country_code_id": "c2d74e9f-df67-4158-b326-46f93bb31903",
+        "country_code": "SR",
+        "country_name_zh": "蘇利南",
+        "country_name_en": "Suriname"
+    },
+    {
+        "country_code_id": "218e40e4-4728-4627-bc22-2aba45899c70",
+        "country_code": "SO",
+        "country_name_zh": "索馬利亞",
+        "country_name_en": "Somalia"
+    },
+    {
+        "country_code_id": "d267b142-ae58-41d1-a3e0-9a61d5195c1e",
+        "country_code": "SN",
+        "country_name_zh": "塞內加爾",
+        "country_name_en": "Senegal"
+    },
+    {
+        "country_code_id": "654eeec0-aba7-4bfd-aef8-59bace2a4aa2",
+        "country_code": "SM",
+        "country_name_zh": "聖馬利諾",
+        "country_name_en": "San Marino"
+    },
+    {
+        "country_code_id": "cafda1d6-6891-4e00-b6df-653857d1c82e",
+        "country_code": "SL",
+        "country_name_zh": "獅子山",
+        "country_name_en": "Sierra Leone"
+    },
+    {
+        "country_code_id": "f7689515-4ef1-4070-9c5f-dfe27f72eaad",
+        "country_code": "SK",
+        "country_name_zh": "斯洛伐克",
+        "country_name_en": "Slovakia"
+    },
+    {
+        "country_code_id": "9e6d6758-4a15-4b02-97d2-f333183193bf",
+        "country_code": "SJ",
+        "country_name_zh": "斯瓦巴及尖棉島",
+        "country_name_en": "Svalbard and Jan Mayen"
+    },
+    {
+        "country_code_id": "ea3f1ff3-d3b2-4a12-8fa7-c20a419577ef",
+        "country_code": "SI",
+        "country_name_zh": "斯洛維尼亞",
+        "country_name_en": "Slovenia"
+    },
+    {
+        "country_code_id": "063e38af-eb54-4434-9ee7-7c0a5c39e587",
+        "country_code": "SH",
+        "country_name_zh": "聖赫勒拿島",
+        "country_name_en": "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+        "country_code_id": "1829c48c-3b40-47f9-a9bd-4a621a75f974",
+        "country_code": "SG",
+        "country_name_zh": "新加坡",
+        "country_name_en": "Singapore"
+    },
+    {
+        "country_code_id": "52da1549-27ed-4908-b588-5415c62f0472",
+        "country_code": "SE",
+        "country_name_zh": "瑞典",
+        "country_name_en": "Sweden"
+    },
+    {
+        "country_code_id": "63fccd22-f433-4b67-a31a-15d8b12931fb",
+        "country_code": "SD",
+        "country_name_zh": "蘇丹",
+        "country_name_en": "Sudan"
+    },
+    {
+        "country_code_id": "91e31c66-e537-43fc-91a1-e297f7ec2f26",
+        "country_code": "SC",
+        "country_name_zh": "塞席爾",
+        "country_name_en": "Seychelles"
+    },
+    {
+        "country_code_id": "c5ae3872-62f2-41c5-ae64-e8f599337245",
+        "country_code": "SB",
+        "country_name_zh": "索羅門群島",
+        "country_name_en": "Solomon Islands"
+    },
+    {
+        "country_code_id": "407fe02e-6370-4ba5-bac5-8ebf67fadbd7",
+        "country_code": "SA",
+        "country_name_zh": "沙烏地阿拉伯",
+        "country_name_en": "Saudi Arabia"
+    },
+    {
+        "country_code_id": "135ac7dc-836b-4ffd-8231-15a75020fae1",
+        "country_code": "RW",
+        "country_name_zh": "盧安達",
+        "country_name_en": "Rwanda"
+    },
+    {
+        "country_code_id": "2faf5d24-10fd-4238-a638-b65c570c3db9",
+        "country_code": "RU",
+        "country_name_zh": "俄羅斯",
+        "country_name_en": "Russian Federation"
+    },
+    {
+        "country_code_id": "0e7a9af2-781c-4410-a706-8d4af7ea4715",
+        "country_code": "RS",
+        "country_name_zh": "塞爾維亞",
+        "country_name_en": "Serbia"
+    },
+    {
+        "country_code_id": "7405d4ab-6fa3-4e2b-b592-ad26ef3db38f",
+        "country_code": "RO",
+        "country_name_zh": "羅馬尼亞",
+        "country_name_en": "Romania"
+    },
+    {
+        "country_code_id": "8de5998d-b1cd-466a-9e8c-564adb07838f",
+        "country_code": "RE",
+        "country_name_zh": "留尼旺",
+        "country_name_en": "Réunion"
+    },
+    {
+        "country_code_id": "61b623dd-7fa1-4145-bd86-8d39de4bdb5f",
+        "country_code": "QA",
+        "country_name_zh": "卡達",
+        "country_name_en": "Qatar"
+    },
+    {
+        "country_code_id": "26625739-face-4efe-8a96-25db8c0df024",
+        "country_code": "PY",
+        "country_name_zh": "巴拉圭",
+        "country_name_en": "Paraguay"
+    },
+    {
+        "country_code_id": "1728946e-a7e4-4713-a587-1d22145dfe50",
+        "country_code": "PW",
+        "country_name_zh": "帛琉",
+        "country_name_en": "Palau"
+    },
+    {
+        "country_code_id": "4796df11-1f73-4b67-8d94-4a822ee2ec0c",
+        "country_code": "PT",
+        "country_name_zh": "葡萄牙",
+        "country_name_en": "Portugal"
+    },
+    {
+        "country_code_id": "2d51b9ce-2f6c-413b-9873-35c04b9831c5",
+        "country_code": "PS",
+        "country_name_zh": "巴勒斯坦",
+        "country_name_en": "Palestine, State of"
+    },
+    {
+        "country_code_id": "38ef9cf5-58c2-4c06-94e4-f444335a45ff",
+        "country_code": "PR",
+        "country_name_zh": "波多黎各",
+        "country_name_en": "Puerto Rico"
+    },
+    {
+        "country_code_id": "dace0241-ba17-427e-826b-fc0c3e8856c4",
+        "country_code": "PN",
+        "country_name_zh": "皮特康島",
+        "country_name_en": "Pitcairn"
+    },
+    {
+        "country_code_id": "5090d23b-8600-463d-bfdb-88092ffe8fda",
+        "country_code": "PM",
+        "country_name_zh": "聖皮埃與密克隆群島",
+        "country_name_en": "Saint Pierre and Miquelon"
+    },
+    {
+        "country_code_id": "0c8a1c12-ccd7-408e-a3d1-061a3f71d1ed",
+        "country_code": "PL",
+        "country_name_zh": "波蘭",
+        "country_name_en": "Poland"
+    },
+    {
+        "country_code_id": "f06841f8-c162-49c6-939a-fdb99d47c3a8",
+        "country_code": "PK",
+        "country_name_zh": "巴基斯坦",
+        "country_name_en": "Pakistan"
+    },
+    {
+        "country_code_id": "2d48f21a-38f0-4c14-b14f-76d6094ffaa9",
+        "country_code": "PH",
+        "country_name_zh": "菲律賓",
+        "country_name_en": "Philippines"
+    },
+    {
+        "country_code_id": "8a04cf5a-ee73-4067-9e3a-647884e3cdce",
+        "country_code": "PG",
+        "country_name_zh": "巴布亞紐幾內亞",
+        "country_name_en": "Papua New Guinea"
+    },
+    {
+        "country_code_id": "1079b8b1-ec5b-4452-b4a5-1ae6e9587adf",
+        "country_code": "PF",
+        "country_name_zh": "法屬玻里尼西亞",
+        "country_name_en": "French Polynesia"
+    },
+    {
+        "country_code_id": "01ef7a1f-4f4f-4559-b20b-26f026794a6c",
+        "country_code": "PE",
+        "country_name_zh": "秘魯",
+        "country_name_en": "Peru"
+    },
+    {
+        "country_code_id": "dd2b0f2f-7ace-4763-a93a-81fb50f67756",
+        "country_code": "PA",
+        "country_name_zh": "巴拿馬",
+        "country_name_en": "Panama"
+    },
+    {
+        "country_code_id": "c4c1176b-912d-4653-a3af-cc4c1b63740f",
+        "country_code": "OM",
+        "country_name_zh": "阿曼",
+        "country_name_en": "Oman"
+    },
+    {
+        "country_code_id": "ec470410-4a9b-45a6-8eba-8d89f936bbc0",
+        "country_code": "NZ",
+        "country_name_zh": "紐西蘭",
+        "country_name_en": "New Zealand"
+    },
+    {
+        "country_code_id": "bc26421e-0102-4d53-b4be-1b3258a447e4",
+        "country_code": "NU",
+        "country_name_zh": "紐埃",
+        "country_name_en": "Niue"
+    },
+    {
+        "country_code_id": "9b85523b-e5d1-4bc9-a02b-d5ad8159ad58",
+        "country_code": "NR",
+        "country_name_zh": "諾魯",
+        "country_name_en": "Nauru"
+    },
+    {
+        "country_code_id": "32cf2517-652e-4784-a180-712fd67218d0",
+        "country_code": "NP",
+        "country_name_zh": "尼泊爾",
+        "country_name_en": "Nepal"
+    },
+    {
+        "country_code_id": "29c9c097-d907-4f3c-aa73-deb0f233cdc6",
+        "country_code": "NO",
+        "country_name_zh": "挪威",
+        "country_name_en": "Norway"
+    },
+    {
+        "country_code_id": "7f2b6da7-2c81-4c1e-af6a-302ed81046ea",
+        "country_code": "NL",
+        "country_name_zh": "荷蘭",
+        "country_name_en": "Netherlands"
+    },
+    {
+        "country_code_id": "f6586a1d-f8af-458b-9db1-a95c33bcb798",
+        "country_code": "NI",
+        "country_name_zh": "尼加拉瓜",
+        "country_name_en": "Nicaragua"
+    },
+    {
+        "country_code_id": "3063a9cd-2be5-4af3-9a57-f629bcaab910",
+        "country_code": "NG",
+        "country_name_zh": "奈及利亞",
+        "country_name_en": "Nigeria"
+    },
+    {
+        "country_code_id": "ac67d545-2cb8-41bc-9ed2-846a0fe86ba6",
+        "country_code": "NF",
+        "country_name_zh": "諾福克群島",
+        "country_name_en": "Norfolk Island"
+    },
+    {
+        "country_code_id": "e282d760-95fa-4027-8491-9df4a0713285",
+        "country_code": "NE",
+        "country_name_zh": "尼日",
+        "country_name_en": "Niger"
+    },
+    {
+        "country_code_id": "7961debd-78dc-402a-84e5-b77c6724b809",
+        "country_code": "NC",
+        "country_name_zh": "新喀里多尼亞",
+        "country_name_en": "New Caledonia"
+    },
+    {
+        "country_code_id": "778e9aa8-4a39-4ff2-9f2f-5aa12d685d36",
+        "country_code": "NA",
+        "country_name_zh": "納米比亞",
+        "country_name_en": "Namibia"
+    },
+    {
+        "country_code_id": "5b5f51f3-5331-46b3-be93-c50808db50a1",
+        "country_code": "MZ",
+        "country_name_zh": "莫三比克",
+        "country_name_en": "Mozambique"
+    },
+    {
+        "country_code_id": "447af56e-3164-44d6-9080-a86b30d37de6",
+        "country_code": "MY",
+        "country_name_zh": "馬來西亞",
+        "country_name_en": "Malaysia"
+    },
+    {
+        "country_code_id": "4f23133d-d059-4908-85ab-f15d5579ef37",
+        "country_code": "MX",
+        "country_name_zh": "墨西哥",
+        "country_name_en": "Mexico"
+    },
+    {
+        "country_code_id": "cab82dcc-ea9a-436e-96c0-555af8a91df6",
+        "country_code": "MW",
+        "country_name_zh": "馬拉威",
+        "country_name_en": "Malawi"
+    },
+    {
+        "country_code_id": "30ec69c3-4db4-4fc9-99fb-d81960de9168",
+        "country_code": "MV",
+        "country_name_zh": "馬爾地夫",
+        "country_name_en": "Maldives"
+    },
+    {
+        "country_code_id": "9b33779b-3850-4ae5-acb1-d0dd1441124f",
+        "country_code": "MU",
+        "country_name_zh": "模里西斯",
+        "country_name_en": "Mauritius"
+    },
+    {
+        "country_code_id": "af0e1167-5243-464b-9551-19a0d488c5fb",
+        "country_code": "MT",
+        "country_name_zh": "馬爾他",
+        "country_name_en": "Malta"
+    },
+    {
+        "country_code_id": "4864c3dd-9c63-43cd-b1e4-141256e06d64",
+        "country_code": "MS",
+        "country_name_zh": "蒙哲臘",
+        "country_name_en": "Montserrat"
+    },
+    {
+        "country_code_id": "8f54a64f-ed74-4dd0-922e-771baffb5ae9",
+        "country_code": "MR",
+        "country_name_zh": "茅利塔尼亞",
+        "country_name_en": "Mauritania"
+    },
+    {
+        "country_code_id": "0273c0e2-906d-4310-a9df-fbcdf8251aec",
+        "country_code": "MQ",
+        "country_name_zh": "法屬馬丁尼克",
+        "country_name_en": "Martinique"
+    },
+    {
+        "country_code_id": "1c9e1cc6-f1f6-4b7f-91b4-08f9b8236a67",
+        "country_code": "MP",
+        "country_name_zh": "北馬利安納群島邦",
+        "country_name_en": "Northern Mariana Islands"
+    },
+    {
+        "country_code_id": "6077f97f-6a6c-46d1-b95c-9e418706491a",
+        "country_code": "MO",
+        "country_name_zh": "澳門",
+        "country_name_en": "Macao"
+    },
+    {
+        "country_code_id": "c4cc7606-a97a-42fe-9081-08919514c548",
+        "country_code": "MN",
+        "country_name_zh": "蒙古",
+        "country_name_en": "Mongolia"
+    },
+    {
+        "country_code_id": "a3d0fe43-779d-4fde-b36b-a58c599482e2",
+        "country_code": "MM",
+        "country_name_zh": "緬甸",
+        "country_name_en": "Myanmar"
+    },
+    {
+        "country_code_id": "3aff4361-7073-4af7-9d55-5700c47982ab",
+        "country_code": "ML",
+        "country_name_zh": "馬利",
+        "country_name_en": "Mali"
+    },
+    {
+        "country_code_id": "3665a055-ff6e-4737-8b92-51076d11a9c8",
+        "country_code": "MK",
+        "country_name_zh": "北馬其頓",
+        "country_name_en": "North Macedonia"
+    },
+    {
+        "country_code_id": "582728e6-b7f2-49c8-accc-a7fd622ee613",
+        "country_code": "MH",
+        "country_name_zh": "馬紹爾群島",
+        "country_name_en": "Marshall Islands"
+    },
+    {
+        "country_code_id": "ba6d7778-d74a-4aa2-98fa-f5aabe313153",
+        "country_code": "MG",
+        "country_name_zh": "馬達加斯加",
+        "country_name_en": "Madagascar"
+    },
+    {
+        "country_code_id": "f95864d7-438d-4183-abfb-ea636aa88da9",
+        "country_code": "MF",
+        "country_name_zh": "聖馬丁(法屬)",
+        "country_name_en": "Saint Martin (French part)"
+    },
+    {
+        "country_code_id": "94de76bf-62f3-41e8-a230-84440e2d85fc",
+        "country_code": "ME",
+        "country_name_zh": "蒙特內哥羅",
+        "country_name_en": "Montenegro"
+    },
+    {
+        "country_code_id": "96803264-e69f-4b46-8264-c11a05716539",
+        "country_code": "MD",
+        "country_name_zh": "摩爾多瓦",
+        "country_name_en": "Moldova (the Republic of)"
+    },
+    {
+        "country_code_id": "c8ba81f2-0aa7-4f20-919b-ee4abebbbcf9",
+        "country_code": "MC",
+        "country_name_zh": "摩納哥",
+        "country_name_en": "Monaco"
+    },
+    {
+        "country_code_id": "9d960336-a521-40c4-9265-1b2021628497",
+        "country_code": "MA",
+        "country_name_zh": "摩洛哥",
+        "country_name_en": "Morocco"
+    },
+    {
+        "country_code_id": "7455d373-8e3b-47fb-9669-b0d5fe509901",
+        "country_code": "LY",
+        "country_name_zh": "利比亞",
+        "country_name_en": "Libya"
+    },
+    {
+        "country_code_id": "a0092e77-dd38-44ce-8f33-63089cbb97c4",
+        "country_code": "LV",
+        "country_name_zh": "拉脫維亞",
+        "country_name_en": "Latvia"
+    },
+    {
+        "country_code_id": "7520d24c-8f1b-41de-a26e-adcc361e6be1",
+        "country_code": "LU",
+        "country_name_zh": "盧森堡",
+        "country_name_en": "Luxembourg"
+    },
+    {
+        "country_code_id": "f74326d6-abfd-4ee9-bc53-d269d791ab97",
+        "country_code": "LT",
+        "country_name_zh": "立陶宛",
+        "country_name_en": "Lithuania"
+    },
+    {
+        "country_code_id": "2ae2f2d3-76fa-4f85-a7f1-657d1a80e814",
+        "country_code": "LS",
+        "country_name_zh": "賴索托",
+        "country_name_en": "Lesotho"
+    },
+    {
+        "country_code_id": "4bba0acd-a2f4-4f44-bfdf-f019866ba506",
+        "country_code": "LR",
+        "country_name_zh": "賴比瑞亞",
+        "country_name_en": "Liberia"
+    },
+    {
+        "country_code_id": "07e1a603-f86a-4d49-b915-c17549c7f806",
+        "country_code": "LK",
+        "country_name_zh": "斯里蘭卡",
+        "country_name_en": "Sri Lanka"
+    },
+    {
+        "country_code_id": "ca734652-27e6-41b2-ae03-9cdb0c442213",
+        "country_code": "LI",
+        "country_name_zh": "列支敦斯登",
+        "country_name_en": "Liechtenstein"
+    },
+    {
+        "country_code_id": "96141d84-9f56-4474-ba51-0775152141a7",
+        "country_code": "LC",
+        "country_name_zh": "聖露西亞",
+        "country_name_en": "Saint Lucia"
+    },
+    {
+        "country_code_id": "2467b023-14f6-4acd-8abd-7df6c20d029c",
+        "country_code": "LB",
+        "country_name_zh": "黎巴嫩",
+        "country_name_en": "Lebanon"
+    },
+    {
+        "country_code_id": "1d575401-393c-4e89-a495-f30442464aac",
+        "country_code": "LA",
+        "country_name_zh": "寮國",
+        "country_name_en": "Lao People's Democratic Republic"
+    },
+    {
+        "country_code_id": "df13bf0c-55ea-4bf4-8108-623076e60a6e",
+        "country_code": "KZ",
+        "country_name_zh": "哈薩克",
+        "country_name_en": "Kazakhstan"
+    },
+    {
+        "country_code_id": "5a6dc6ac-e96d-4c8d-980e-18eec96c998e",
+        "country_code": "KY",
+        "country_name_zh": "開曼群島",
+        "country_name_en": "Cayman Islands"
+    },
+    {
+        "country_code_id": "a25e2e28-7031-4c0b-b53b-49766c6ed74f",
+        "country_code": "KW",
+        "country_name_zh": "科威特",
+        "country_name_en": "Kuwait"
+    },
+    {
+        "country_code_id": "3bea45d0-02a6-470b-9587-cb334fc3be88",
+        "country_code": "KR",
+        "country_name_zh": "韓國",
+        "country_name_en": "Korea (the Republic of)"
+    },
+    {
+        "country_code_id": "52081426-6b09-4615-8eaa-f7f7fe64564a",
+        "country_code": "KP",
+        "country_name_zh": "北韓",
+        "country_name_en": "Korea (the Democratic People's Republic of)"
+    },
+    {
+        "country_code_id": "dfd67913-0823-4c8a-b2c3-a3bd77b83140",
+        "country_code": "KN",
+        "country_name_zh": "聖克里斯多福及尼維斯",
+        "country_name_en": "Saint Kitts and Nevis"
+    },
+    {
+        "country_code_id": "08cce690-4d45-4da5-b2bd-51b3a797e821",
+        "country_code": "KM",
+        "country_name_zh": "葛摩",
+        "country_name_en": "Comoros"
+    },
+    {
+        "country_code_id": "bba85e15-30d8-4e1e-97c2-8315cc677339",
+        "country_code": "KI",
+        "country_name_zh": "吉里巴斯",
+        "country_name_en": "Kiribati"
+    },
+    {
+        "country_code_id": "9e392e33-436a-43dd-a936-c00051f9508b",
+        "country_code": "KH",
+        "country_name_zh": "柬埔寨王國",
+        "country_name_en": "Cambodia"
+    },
+    {
+        "country_code_id": "e26c2d55-3df5-4f9a-854a-019bdb9bec8f",
+        "country_code": "KG",
+        "country_name_zh": "吉爾吉斯",
+        "country_name_en": "Kyrgyzstan"
+    },
+    {
+        "country_code_id": "515dd565-4a12-4d99-b087-fae217090a66",
+        "country_code": "KE",
+        "country_name_zh": "肯亞",
+        "country_name_en": "Kenya"
+    },
+    {
+        "country_code_id": "d9d39ccd-3b2d-4ad2-9317-e763a8fe912e",
+        "country_code": "JP",
+        "country_name_zh": "日本",
+        "country_name_en": "Japan"
+    },
+    {
+        "country_code_id": "a54c162b-a106-455d-bb28-a3e26e657b1f",
+        "country_code": "JO",
+        "country_name_zh": "約旦",
+        "country_name_en": "Jordan"
+    },
+    {
+        "country_code_id": "87324bb3-7fc7-4911-a214-0895df026554",
+        "country_code": "JM",
+        "country_name_zh": "牙買加",
+        "country_name_en": "Jamaica"
+    },
+    {
+        "country_code_id": "028a7f2f-fc1e-46de-8035-a44e8fd3a05b",
+        "country_code": "JE",
+        "country_name_zh": "澤西島",
+        "country_name_en": "Jersey"
+    },
+    {
+        "country_code_id": "2c6c80b7-0576-48ab-98eb-de1fd8f51b19",
+        "country_code": "IT",
+        "country_name_zh": "義大利",
+        "country_name_en": "Italy"
+    },
+    {
+        "country_code_id": "3b64f472-604c-4e18-b7b8-402a569a21bd",
+        "country_code": "IS",
+        "country_name_zh": "冰島",
+        "country_name_en": "Iceland"
+    },
+    {
+        "country_code_id": "4bfe015f-7ba6-4b76-bee0-242e8281e7ea",
+        "country_code": "IR",
+        "country_name_zh": "伊朗",
+        "country_name_en": "Iran (Islamic Republic of)"
+    },
+    {
+        "country_code_id": "860d3188-57b5-4601-9660-372ebab71631",
+        "country_code": "IQ",
+        "country_name_zh": "伊拉克",
+        "country_name_en": "Iraq"
+    },
+    {
+        "country_code_id": "96d20273-e4b1-4e4f-bf03-299e89eafd06",
+        "country_code": "IO",
+        "country_name_zh": "英國印度洋地區",
+        "country_name_en": "British Indian Ocean Territory"
+    },
+    {
+        "country_code_id": "3a969c6d-4c7c-423d-bf6f-1ac34626e02c",
+        "country_code": "IN",
+        "country_name_zh": "印度",
+        "country_name_en": "India"
+    },
+    {
+        "country_code_id": "69122bc4-0723-40fe-851a-f0611470ca13",
+        "country_code": "IM",
+        "country_name_zh": "曼島",
+        "country_name_en": "Isle of Man"
+    },
+    {
+        "country_code_id": "ee0c897e-c020-4560-9a92-6de9a43baca4",
+        "country_code": "IL",
+        "country_name_zh": "以色列",
+        "country_name_en": "Israel"
+    },
+    {
+        "country_code_id": "340f222f-6313-435a-b64d-6f64ec9a4840",
+        "country_code": "IE",
+        "country_name_zh": "愛爾蘭",
+        "country_name_en": "Ireland"
+    },
+    {
+        "country_code_id": "c420bff6-c78a-4864-91d3-53400dc6f6bb",
+        "country_code": "ID",
+        "country_name_zh": "印尼",
+        "country_name_en": "Indonesia"
+    },
+    {
+        "country_code_id": "563d76aa-7d59-430a-9b56-4d3ccb3d11fc",
+        "country_code": "HU",
+        "country_name_zh": "匈牙利",
+        "country_name_en": "Hungary"
+    },
+    {
+        "country_code_id": "73f23431-7cdb-4faa-ac66-f941d7725eda",
+        "country_code": "HT",
+        "country_name_zh": "海地",
+        "country_name_en": "Haiti"
+    },
+    {
+        "country_code_id": "ff0d7bc7-c78b-42d1-958f-d24ebeba2c64",
+        "country_code": "HR",
+        "country_name_zh": "克羅埃西亞",
+        "country_name_en": "Croatia"
+    },
+    {
+        "country_code_id": "c65c9de4-ba74-4a25-9117-47199edd83f2",
+        "country_code": "HN",
+        "country_name_zh": "宏都拉斯",
+        "country_name_en": "Honduras"
+    },
+    {
+        "country_code_id": "a93538f0-df40-4cbd-ba23-9dda3ccb3295",
+        "country_code": "HM",
+        "country_name_zh": "赫德島和麥當勞群島",
+        "country_name_en": "Heard Island and McDonald Islands"
+    },
+    {
+        "country_code_id": "8143f93e-c1e4-4ab6-ba2b-35885dee083f",
+        "country_code": "HK",
+        "country_name_zh": "香港",
+        "country_name_en": "Hong Kong"
+    },
+    {
+        "country_code_id": "392a6021-d9f1-48b1-8b08-273c348c89e2",
+        "country_code": "GY",
+        "country_name_zh": "蓋亞那",
+        "country_name_en": "Guyana"
+    },
+    {
+        "country_code_id": "016430b5-af9a-47f1-9981-7d321427ae1d",
+        "country_code": "GW",
+        "country_name_zh": "幾內亞比索",
+        "country_name_en": "Guinea-Bissau"
+    },
+    {
+        "country_code_id": "7b44783f-5416-4a11-9350-f423d25dfbab",
+        "country_code": "GU",
+        "country_name_zh": "關島",
+        "country_name_en": "Guam"
+    },
+    {
+        "country_code_id": "be0654f5-9781-45fb-9c64-6957bce2ca3f",
+        "country_code": "GT",
+        "country_name_zh": "瓜地馬拉",
+        "country_name_en": "Guatemala"
+    },
+    {
+        "country_code_id": "478d4748-cfd1-4d16-a2b0-c5e2059beb95",
+        "country_code": "GS",
+        "country_name_zh": "南喬治亞與南三明治群島",
+        "country_name_en": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "country_code_id": "827562bc-6cf6-4800-8ebc-6447228bf911",
+        "country_code": "GR",
+        "country_name_zh": "希臘",
+        "country_name_en": "Greece"
+    },
+    {
+        "country_code_id": "fcafe370-dd5a-4aa7-aec0-8cba21337229",
+        "country_code": "GQ",
+        "country_name_zh": "赤道幾內亞",
+        "country_name_en": "Equatorial Guinea"
+    },
+    {
+        "country_code_id": "7562af00-a838-4990-945f-cd4f316e2167",
+        "country_code": "GP",
+        "country_name_zh": "瓜德羅普島",
+        "country_name_en": "Guadeloupe"
+    },
+    {
+        "country_code_id": "2ff361b5-1ebf-431e-aa64-99b04c3b4ceb",
+        "country_code": "GN",
+        "country_name_zh": "幾內亞",
+        "country_name_en": "Guinea"
+    },
+    {
+        "country_code_id": "860f98bc-037e-4a6e-8d36-24dbb85a412e",
+        "country_code": "GM",
+        "country_name_zh": "甘比亞",
+        "country_name_en": "Gambia"
+    },
+    {
+        "country_code_id": "fbab2b32-f681-445a-9aef-5b1bcaadcf80",
+        "country_code": "GL",
+        "country_name_zh": "格陵蘭",
+        "country_name_en": "Greenland"
+    },
+    {
+        "country_code_id": "7eb6f471-ae48-445a-b22a-39fb9999ca9c",
+        "country_code": "GI",
+        "country_name_zh": "直布羅陀",
+        "country_name_en": "Gibraltar"
+    },
+    {
+        "country_code_id": "fb0a4353-fc5d-4a0d-ae25-4e86fd9008e8",
+        "country_code": "GH",
+        "country_name_zh": "迦納",
+        "country_name_en": "Ghana"
+    },
+    {
+        "country_code_id": "77d826cb-035a-41c9-a4d0-493af2157e49",
+        "country_code": "GG",
+        "country_name_zh": "根西島",
+        "country_name_en": "Guernsey"
+    },
+    {
+        "country_code_id": "5681879d-ac5d-4927-a4da-98a6751be455",
+        "country_code": "GF",
+        "country_name_zh": "法屬圭亞那",
+        "country_name_en": "French Guiana"
+    },
+    {
+        "country_code_id": "b23da19a-cb8c-478c-bc19-87972fdfb70f",
+        "country_code": "GE",
+        "country_name_zh": "喬治亞",
+        "country_name_en": "Georgia"
+    },
+    {
+        "country_code_id": "dcbe52f6-9a16-4c3d-b3ff-c37acabdd2f3",
+        "country_code": "GD",
+        "country_name_zh": "格瑞那達",
+        "country_name_en": "Grenada"
+    },
+    {
+        "country_code_id": "f8c52d9c-243d-40b3-8cba-99bf671c99e2",
+        "country_code": "GB",
+        "country_name_zh": "英國",
+        "country_name_en": "United Kingdom"
+    },
+    {
+        "country_code_id": "d5cffc10-7a56-4c9a-af49-f5e3e2eeda85",
+        "country_code": "GA",
+        "country_name_zh": "加彭",
+        "country_name_en": "Gabon"
+    },
+    {
+        "country_code_id": "3d693b44-7b68-4890-b3b4-ec563f4f5904",
+        "country_code": "FR",
+        "country_name_zh": "法國",
+        "country_name_en": "France"
+    },
+    {
+        "country_code_id": "82231a8b-da9b-4e21-a5fe-1f695f78c9ed",
+        "country_code": "FO",
+        "country_name_zh": "法羅群島",
+        "country_name_en": "Faroe Islands"
+    },
+    {
+        "country_code_id": "a8803d82-f82c-45da-a3d0-45d1ece2324a",
+        "country_code": "FM",
+        "country_name_zh": "密克羅尼西亞",
+        "country_name_en": "Micronesia (Federated States of)"
+    },
+    {
+        "country_code_id": "b37d345b-de09-4966-800c-0ff26bb200e4",
+        "country_code": "FK",
+        "country_name_zh": "福克蘭群島",
+        "country_name_en": "Falkland Islands (Malvinas)"
+    },
+    {
+        "country_code_id": "c5f864a6-83cc-48a5-86f8-0bce4847c2ed",
+        "country_code": "FJ",
+        "country_name_zh": "斐濟",
+        "country_name_en": "Fiji"
+    },
+    {
+        "country_code_id": "f9ef05f5-354e-4db0-a459-50834758af1b",
+        "country_code": "FI",
+        "country_name_zh": "芬蘭",
+        "country_name_en": "Finland"
+    },
+    {
+        "country_code_id": "aaac0a49-b99d-44de-a72b-6a479fc24920",
+        "country_code": "ET",
+        "country_name_zh": "衣索比亞",
+        "country_name_en": "Ethiopia"
+    },
+    {
+        "country_code_id": "59cc85fe-173c-4256-836a-63607064e0cc",
+        "country_code": "ES",
+        "country_name_zh": "西班牙",
+        "country_name_en": "Spain"
+    },
+    {
+        "country_code_id": "4162ca1a-9e1c-4c1f-adba-d0463f4d8b4e",
+        "country_code": "ER",
+        "country_name_zh": "厄利垂亞",
+        "country_name_en": "Eritrea"
+    },
+    {
+        "country_code_id": "2c28767d-dd62-4cac-ab77-906c578927c3",
+        "country_code": "EH",
+        "country_name_zh": "西撒哈拉",
+        "country_name_en": "Western Sahara"
+    },
+    {
+        "country_code_id": "547eb82f-7b30-477d-8f34-0dd5edb74b25",
+        "country_code": "EG",
+        "country_name_zh": "埃及",
+        "country_name_en": "Egypt"
+    },
+    {
+        "country_code_id": "33330409-36fc-4c77-a8f3-c955128f4c02",
+        "country_code": "EE",
+        "country_name_zh": "愛沙尼亞",
+        "country_name_en": "Estonia"
+    },
+    {
+        "country_code_id": "3b521bf0-01b8-4e39-a714-0e0190dc7cb3",
+        "country_code": "EC",
+        "country_name_zh": "厄瓜多",
+        "country_name_en": "Ecuador"
+    },
+    {
+        "country_code_id": "437abcc1-12d4-442e-b23a-11aa0a8e8085",
+        "country_code": "DZ",
+        "country_name_zh": "阿爾及利亞",
+        "country_name_en": "Algeria"
+    },
+    {
+        "country_code_id": "1b172317-6173-45c2-a404-70e5e3d16b9d",
+        "country_code": "DO",
+        "country_name_zh": "多明尼加",
+        "country_name_en": "Dominican Republic"
+    },
+    {
+        "country_code_id": "59d20d82-a6e7-4e2d-a6de-042ad5bd56ca",
+        "country_code": "DM",
+        "country_name_zh": "多米尼克",
+        "country_name_en": "Dominica"
+    },
+    {
+        "country_code_id": "a9daef83-0414-48ac-a7a7-13f47083437a",
+        "country_code": "DK",
+        "country_name_zh": "丹麥",
+        "country_name_en": "Denmark"
+    },
+    {
+        "country_code_id": "7c014503-a8d3-4ac5-8336-265bd9cc3a57",
+        "country_code": "DJ",
+        "country_name_zh": "吉布地",
+        "country_name_en": "Djibouti"
+    },
+    {
+        "country_code_id": "eefd6b0f-a269-45c1-93fd-615857d3062c",
+        "country_code": "DE",
+        "country_name_zh": "德國",
+        "country_name_en": "Germany"
+    },
+    {
+        "country_code_id": "bee31af2-c2c4-48c8-810d-5d4cecfb9598",
+        "country_code": "CZ",
+        "country_name_zh": "捷克",
+        "country_name_en": "Czechia"
+    },
+    {
+        "country_code_id": "afb21e5b-a82b-4afe-a461-48132c7c521d",
+        "country_code": "CY",
+        "country_name_zh": "賽普勒斯",
+        "country_name_en": "Cyprus"
+    },
+    {
+        "country_code_id": "4203a66f-257a-4ea1-9c85-1fb340044975",
+        "country_code": "CX",
+        "country_name_zh": "聖誕島",
+        "country_name_en": "Christmas Island"
+    },
+    {
+        "country_code_id": "8dadd437-8bfa-4410-b700-5836bde6c10b",
+        "country_code": "CV",
+        "country_name_zh": "維德角",
+        "country_name_en": "Cabo Verde"
+    },
+    {
+        "country_code_id": "6112cfb9-d2ab-4646-9752-1b81ff182824",
+        "country_code": "CU",
+        "country_name_zh": "古巴",
+        "country_name_en": "Cuba"
+    },
+    {
+        "country_code_id": "c5015252-0b80-4ab2-b919-0fd31001a27a",
+        "country_code": "CR",
+        "country_name_zh": "哥斯大黎加",
+        "country_name_en": "Costa Rica"
+    },
+    {
+        "country_code_id": "0989b6ad-fae1-4892-bd2a-72c63e8c0c25",
+        "country_code": "CO",
+        "country_name_zh": "哥倫比亞",
+        "country_name_en": "Colombia"
+    },
+    {
+        "country_code_id": "b7793033-9385-4de8-928d-4012b94403bc",
+        "country_code": "CN",
+        "country_name_zh": "中國大陸",
+        "country_name_en": "China"
+    },
+    {
+        "country_code_id": "b5e5d8ca-097d-4232-b3a1-e1b5a852c23d",
+        "country_code": "CM",
+        "country_name_zh": "喀麥隆",
+        "country_name_en": "Cameroon"
+    },
+    {
+        "country_code_id": "ee049c60-e070-4b4f-a854-37a077505cad",
+        "country_code": "CL",
+        "country_name_zh": "智利",
+        "country_name_en": "Chile"
+    },
+    {
+        "country_code_id": "f8dda086-4637-44b6-9b9a-20029e5e7cce",
+        "country_code": "CK",
+        "country_name_zh": "庫克群島",
+        "country_name_en": "Cook Islands"
+    },
+    {
+        "country_code_id": "58f32184-adb2-4f4c-a325-8a87517cb0a5",
+        "country_code": "CI",
+        "country_name_zh": "象牙海岸",
+        "country_name_en": "Côte d'Ivoire"
+    },
+    {
+        "country_code_id": "c718d569-d487-4ee5-bee9-aa7adffb1e73",
+        "country_code": "CH",
+        "country_name_zh": "瑞士",
+        "country_name_en": "Switzerland"
+    },
+    {
+        "country_code_id": "bc8d3454-b690-4a40-a254-bdafa3fb5c5f",
+        "country_code": "CG",
+        "country_name_zh": "剛果共和國",
+        "country_name_en": "Congo"
+    },
+    {
+        "country_code_id": "ae0a8bab-f2ee-4b7b-a0e7-81a62712d57d",
+        "country_code": "CF",
+        "country_name_zh": "中非共和國",
+        "country_name_en": "Central African Republic"
+    },
+    {
+        "country_code_id": "2ea42213-3129-469c-baa7-bc372e33cc7d",
+        "country_code": "CD",
+        "country_name_zh": "剛果民主共和國",
+        "country_name_en": "Congo (the Democratic Republic of the)"
+    },
+    {
+        "country_code_id": "bdcbf078-6d8a-4c0e-9c28-f3530ad8ad3b",
+        "country_code": "CC",
+        "country_name_zh": "可可斯群島",
+        "country_name_en": "Cocos (Keeling) Islands"
+    },
+    {
+        "country_code_id": "ccb2ec9d-15aa-47ff-81b0-8597dee4804d",
+        "country_code": "CA",
+        "country_name_zh": "加拿大",
+        "country_name_en": "Canada"
+    },
+    {
+        "country_code_id": "68128cd6-a952-4890-a6bd-30c649fea591",
+        "country_code": "BZ",
+        "country_name_zh": "貝里斯",
+        "country_name_en": "Belize"
+    },
+    {
+        "country_code_id": "8e5d9657-2c75-4686-8ca3-c632131dd41c",
+        "country_code": "BY",
+        "country_name_zh": "白俄羅斯",
+        "country_name_en": "Belarus"
+    },
+    {
+        "country_code_id": "6d1ab130-43a7-4619-b5c4-935589f473da",
+        "country_code": "BW",
+        "country_name_zh": "波札那",
+        "country_name_en": "Botswana"
+    },
+    {
+        "country_code_id": "c58f6c72-fc10-49b6-81b0-1f8a0e856c6f",
+        "country_code": "BV",
+        "country_name_zh": "波維特島",
+        "country_name_en": "Bouvet Island"
+    },
+    {
+        "country_code_id": "6ea37538-a2ce-4c11-9b06-ce7e43398e9e",
+        "country_code": "BT",
+        "country_name_zh": "不丹",
+        "country_name_en": "Bhutan"
+    },
+    {
+        "country_code_id": "e7625e9c-5f14-43b4-aec8-317ea616f27e",
+        "country_code": "BS",
+        "country_name_zh": "巴哈馬",
+        "country_name_en": "Bahamas"
+    },
+    {
+        "country_code_id": "109c0b21-70e2-4657-b8f1-949aab0370a1",
+        "country_code": "BR",
+        "country_name_zh": "巴西",
+        "country_name_en": "Brazil"
+    },
+    {
+        "country_code_id": "9e628859-15ff-4c94-8681-9b7c85dc0c96",
+        "country_code": "BO",
+        "country_name_zh": "玻利維亞",
+        "country_name_en": "Bolivia (Plurinational State of)"
+    },
+    {
+        "country_code_id": "da163a36-aac8-42c7-bc5e-b2d2b2df76d7",
+        "country_code": "BN",
+        "country_name_zh": "汶萊",
+        "country_name_en": "Brunei Darussalam"
+    },
+    {
+        "country_code_id": "3a8d7970-661e-475f-b68e-15ab9f0346c9",
+        "country_code": "BM",
+        "country_name_zh": "百慕達",
+        "country_name_en": "Bermuda"
+    },
+    {
+        "country_code_id": "927aad33-e3b6-4b7d-8b41-915bde7e1bcd",
+        "country_code": "BL",
+        "country_name_zh": "聖巴瑟米",
+        "country_name_en": "Saint Barthélemy"
+    },
+    {
+        "country_code_id": "8774c233-45b8-4c1b-af7f-472d76154fad",
+        "country_code": "BJ",
+        "country_name_zh": "貝南",
+        "country_name_en": "Benin"
+    },
+    {
+        "country_code_id": "2d73ce24-f286-4159-a665-b44eb776e06c",
+        "country_code": "BI",
+        "country_name_zh": "蒲隆地",
+        "country_name_en": "Burundi"
+    },
+    {
+        "country_code_id": "02a4fbfa-9a0f-49b5-9b30-ddd27adccbf1",
+        "country_code": "BH",
+        "country_name_zh": "巴林",
+        "country_name_en": "Bahrain"
+    },
+    {
+        "country_code_id": "6aa2275c-9b27-4496-a1ca-1405980103ba",
+        "country_code": "BG",
+        "country_name_zh": "保加利亞",
+        "country_name_en": "Bulgaria"
+    },
+    {
+        "country_code_id": "35c296f1-2641-455a-b994-f0fd36a746c1",
+        "country_code": "BF",
+        "country_name_zh": "布吉納法索",
+        "country_name_en": "Burkina Faso"
+    },
+    {
+        "country_code_id": "d555fad7-34e4-4638-a92f-08f02dc59efc",
+        "country_code": "BE",
+        "country_name_zh": "比利時",
+        "country_name_en": "Belgium"
+    },
+    {
+        "country_code_id": "b4c8bccc-d5e3-44b0-9f39-bbeeb5a57075",
+        "country_code": "BD",
+        "country_name_zh": "孟加拉",
+        "country_name_en": "Bangladesh"
+    },
+    {
+        "country_code_id": "eecab961-d52d-412a-8e13-54fc569b2856",
+        "country_code": "BB",
+        "country_name_zh": "巴貝多",
+        "country_name_en": "Barbados"
+    },
+    {
+        "country_code_id": "6ae645f6-7e5b-442d-8ce3-732325194808",
+        "country_code": "BA",
+        "country_name_zh": "波士尼亞與赫塞哥維納",
+        "country_name_en": "Bosnia and Herzegovina"
+    },
+    {
+        "country_code_id": "acdbd651-4021-4b54-b867-0878cb149173",
+        "country_code": "AZ",
+        "country_name_zh": "亞塞拜然",
+        "country_name_en": "Azerbaijan"
+    },
+    {
+        "country_code_id": "e4a39dae-8bc4-4e1d-bf1b-2d6b19c6d739",
+        "country_code": "AW",
+        "country_name_zh": "阿魯巴",
+        "country_name_en": "Aruba"
+    },
+    {
+        "country_code_id": "74296600-2f62-4dbf-ade0-62bd6662e3b2",
+        "country_code": "AU",
+        "country_name_zh": "澳大利亞",
+        "country_name_en": "Australia"
+    },
+    {
+        "country_code_id": "2556e3f3-f1c9-4d75-9e33-62c45beeb769",
+        "country_code": "AT",
+        "country_name_zh": "奧地利",
+        "country_name_en": "Austria"
+    },
+    {
+        "country_code_id": "9314ff44-1769-4dcc-8cc0-e2901d55620b",
+        "country_code": "AS",
+        "country_name_zh": "美屬薩摩亞",
+        "country_name_en": "American Samoa"
+    },
+    {
+        "country_code_id": "c744e2b0-b0a7-42bd-86f8-2692f4197b09",
+        "country_code": "AR",
+        "country_name_zh": "阿根廷",
+        "country_name_en": "Argentina"
+    },
+    {
+        "country_code_id": "e4ca288b-60b7-4d97-b50a-17908c319755",
+        "country_code": "AQ",
+        "country_name_zh": "南極洲",
+        "country_name_en": "Antarctica"
+    },
+    {
+        "country_code_id": "7267a5d5-30a5-4062-b36b-8b192decd306",
+        "country_code": "AO",
+        "country_name_zh": "安哥拉",
+        "country_name_en": "Angola"
+    },
+    {
+        "country_code_id": "2eceb6c8-7d78-423d-a0f8-e43a8644cb26",
+        "country_code": "AM",
+        "country_name_zh": "亞美尼亞",
+        "country_name_en": "Armenia"
+    },
+    {
+        "country_code_id": "1e84c655-c244-437a-af12-addfc291d341",
+        "country_code": "AL",
+        "country_name_zh": "阿爾巴尼亞",
+        "country_name_en": "Albania"
+    },
+    {
+        "country_code_id": "a8fd81ee-3508-400d-a800-204ccc544c7d",
+        "country_code": "AI",
+        "country_name_zh": "安吉拉",
+        "country_name_en": "Anguilla"
+    },
+    {
+        "country_code_id": "b601b35d-8a33-4c22-bdfe-d9c669d043bc",
+        "country_code": "AG",
+        "country_name_zh": "安地卡及巴布達",
+        "country_name_en": "Antigua and Barbuda"
+    },
+    {
+        "country_code_id": "94c2c04e-55c0-4a4f-96a4-b9fad037aed6",
+        "country_code": "AF",
+        "country_name_zh": "阿富汗",
+        "country_name_en": "Afghanistan"
+    },
+    {
+        "country_code_id": "ec2b9fd6-d4d6-47a7-8319-2098aed275c0",
+        "country_code": "AE",
+        "country_name_zh": "阿拉伯聯合大公國",
+        "country_name_en": "United Arab Emirates"
+    },
+    {
+        "country_code_id": "75fb779b-5be7-4f99-ac55-87afbfa183cc",
+        "country_code": "AD",
+        "country_name_zh": "安道爾",
+        "country_name_en": "Andorra"
+    },
+    {
+        "country_code_id": "",
+        "country_code": "AX",
+        "country_name_zh": "奧蘭群島",
+        "country_name_en": "Åland Islands"
+    },
+    {
+        "country_code_id": "",
+        "country_code": "BQ",
+        "country_name_zh": "波奈、聖佑達修斯及沙巴",
+        "country_name_en": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+        "country_code_id": "",
+        "country_code": "CW",
+        "country_name_zh": "古拉索",
+        "country_name_en": "Curaçao"
+    },
+    {
+        "country_code_id": "",
+        "country_code": "VA",
+        "country_name_zh": "教廷",
+        "country_name_en": "Holy See"
+    },
+    {
+        "country_code_id": "",
+        "country_code": "KS",
+        "country_name_zh": "科索沃",
+        "country_name_en": "Kosovo"
+    }
+]

@@ -1,0 +1,741 @@
+{
+  "DPP": [
+    {
+      "DPPClass": 1,
+      "DPPSubClass": 1,
+      "PassportStartDate": "2026-01-01",
+      "PassportEndDate": "2036-01-01",
+      "SerialNo": "LIB202600000003",
+      "MftDate": "2026-01-01",
+      "WarrantyDate": "2036-01-01",
+      "ProdCycleStatus": 1,
+      "DPPStatus": 0,
+      "DPPSource": 3
+    }
+  ],
+  "DPPInfo": {
+    "GTIN": "04715839201648",
+    "SSCC": "047158392016480001",
+    "BatchLot": "BAT20260101001",
+    "TARIC": "85076000900000",
+    "UniqueFacilityIdentifierDUNS": "999999999",
+    "UniqueFacilityIdentifierGLN": "4715839201641",
+    "OrigIn": "TW"
+  },
+  "ProductInfo": {
+    "Model": "OBP-LFP-48100",
+    "ProdName": "Open Battery Passport LFP Battery",
+    "FID": "99999999",
+    "CCCCode": "999999999",
+    "SpecInfo": [
+      {
+        "SpecInfo_Type": "Battery1",
+        "Details": [
+          {
+            "value": "10",
+            "unit": "年",
+            "description": "示範值，實際壽命依使用環境及充放電條件而異"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery2",
+        "Details": [
+          {
+            "value": "Open Mobility Demo Co., Ltd.",
+            "unit": "",
+            "description": "虛構之示範電動車製造商"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery3",
+        "Details": [
+          {
+            "value": "臺灣",
+            "unit": "",
+            "description": "虛構之電動車組裝國"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery4",
+        "Details": [
+          {
+            "value": "Open Battery Demo Co., Ltd.",
+            "unit": "",
+            "description": "虛構之示範電池生產商"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery5",
+        "Details": [
+          {
+            "value": "臺灣",
+            "unit": "",
+            "description": "虛構之電池生產國"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery6",
+        "Details": [
+          {
+            "value": "Open Cell Demo Co., Ltd.",
+            "unit": "",
+            "description": "虛構之示範電芯生產商"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery7",
+        "Details": [
+          {
+            "value": "臺灣",
+            "unit": "",
+            "description": "虛構之電芯生產國"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery8",
+        "Details": [
+          {
+            "value": "磷酸鐵鋰二次電池(LiFePO₄)",
+            "unit": "",
+            "description": "可充電鋰離子電池"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery9",
+        "Details": [
+          {
+            "value": "100",
+            "unit": "Ah",
+            "description": "電池組額定容量"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery10",
+        "Details": [
+          {
+            "value": "方形電芯(Prismatic Cell)",
+            "unit": "",
+            "description": "示範電池採方形LiFePO₄電芯"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery11",
+        "Details": [
+          {
+            "value": "15",
+            "unit": "顆",
+            "description": "15顆3.2V／100Ah電芯串聯組成48V級電池組"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery12",
+        "Details": [
+          {
+            "value": "4.8",
+            "unit": "kWh",
+            "description": "48V×100Ah＝4.8kWh"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery13",
+        "Details": [
+          {
+            "value": "92",
+            "unit": "%",
+            "description": "示範能源往返效率"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery14",
+        "Details": [
+          {
+            "value": "52",
+            "unit": "kg",
+            "description": "電池模組整體示範重量"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery15",
+        "Details": [
+          {
+            "value": "-20～60",
+            "unit": "°C",
+            "description": "示範儲存溫度範圍"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery16",
+        "Details": [
+          {
+            "value": "0.5",
+            "unit": "C",
+            "description": "標準充放電率；100Ah電池之0.5C約50A"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery17",
+        "Details": [
+          {
+            "value": "OBD-2026-DEMO-001",
+            "unit": "",
+            "description": "虛構之示範登記編號"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery18",
+        "Details": [
+          {
+            "value": "Open Battery Passport",
+            "unit": "",
+            "description": "虛構示範商標，不代表實際註冊"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery19",
+        "Details": [
+          {
+            "value": "battery-demo@example.org",
+            "unit": "",
+            "description": "示範用電子郵件地址"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery20",
+        "Details": [
+          {
+            "unit": "g",
+            "value": "30100",
+            "CountryCode": "TW",
+            "description": "正極、負極及電解液主要化學成分之示範重量合計"
+          }
+        ],
+        "Chemistry": {
+          "unit": "g",
+          "description": "本資料為電池護照開源系統示範用虛構資料，重量僅供功能展示。",
+          "electrolyte": [
+            {
+              "name": "六氟磷酸鋰(Lithium Hexafluorophosphate)",
+              "cas_no": "21324-40-3",
+              "weight": 2400
+            }
+          ],
+          "negative_electrode": [
+            {
+              "name": "石墨(Graphite)",
+              "cas_no": "7782-42-5",
+              "weight": 9200
+            }
+          ],
+          "positive_electrode": [
+            {
+              "name": "磷酸鐵鋰(Lithium Iron Phosphate)",
+              "cas_no": "15365-14-7",
+              "weight": 18500
+            }
+          ]
+        }
+      },
+      {
+        "SpecInfo_Type": "Battery21",
+        "Details": [
+          {
+            "value": "大量水霧",
+            "unit": "",
+            "description": "用於冷卻及抑制電池火災之示範資訊，實際處置應依產品安全文件辦理"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery22",
+        "Details": [
+          {
+            "value": "68.72",
+            "unit": "kg CO₂e",
+            "description": "各生命週期階段碳足跡合計之Demo值"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery23",
+        "Details": [
+          {
+            "value": "B",
+            "unit": "",
+            "description": "示範用性能等級，非正式EU碳足跡分級結果"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery24",
+        "Details": [
+          {
+            "value": "https://example.org/battery-demo/cfp-methodology",
+            "unit": "",
+            "description": "示範用碳足跡計算方法及資料來源連結"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery25",
+        "Details": [
+          {
+            "unit": "V",
+            "value": "40.0–58.4",
+            "description": "48V級LiFePO₄電池示範電壓範圍"
+          }
+        ],
+        "Voltage": [
+          {
+            "max": 58.4,
+            "min": 40,
+            "nom": 51.2,
+            "unit": "V",
+            "Temperature": {
+              "max": "60",
+              "min": "-20",
+              "unit": "°C",
+              "description": "示範操作溫度範圍；充電溫度通常另有限制"
+            },
+            "description": "16串LiFePO₄電池示範值，實際範圍依電芯及BMS設定而異"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery26",
+        "Details": [
+          {
+            "unit": "KW",
+            "value": "4.8",
+            "description": "以1C放電率估算之示範功率能力",
+            "Temperature": {
+              "max": 60,
+              "min": -20,
+              "unit": "°C",
+              "description": "示範操作溫度範圍，實際功率能力會隨溫度與BMS設定而變化"
+            }
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery27",
+        "Details": [
+          {
+            "value": "4000",
+            "unit": "次",
+            "description": "示範循環壽命值，實際結果依DoD、溫度及充放電條件而異"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery28",
+        "Details": [
+          {
+            "value": "IEC 62620 Cycle Endurance Test",
+            "unit": "",
+            "description": "示範用參考測試方法，不代表已完成正式測試"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery29",
+        "Details": [
+          {
+            "value": "70",
+            "unit": "%",
+            "description": "當可用容量下降至初始容量70%時視為達耗盡門檻之Demo設定"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery30",
+        "Details": [
+          {
+            "value": "0.5",
+            "unit": "mΩ",
+            "description": "單顆電芯初始內阻示範值"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery31",
+        "Details": [
+          {
+            "value": "12",
+            "unit": "mΩ",
+            "description": "電池組初始內阻示範值"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery32",
+        "Details": [
+          {
+            "value": "95",
+            "unit": "%",
+            "description": "新電池狀態下之能源往返效率Demo值"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery33",
+        "Details": [
+          {
+            "value": "92",
+            "unit": "%",
+            "description": "循環壽命達50%時之能源往返效率Demo值"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery34",
+        "Details": [
+          {
+            "value": "PASS",
+            "unit": "",
+            "description": "示範值，不代表真實測試、認證或EU法規符合性"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery35",
+        "Details": [
+          {
+            "value": "磷酸鐵鋰二次電池(LiFePO₄ Rechargeable Battery)",
+            "unit": "",
+            "description": "48V級100Ah二次鋰電池"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery36",
+        "Details": [
+          {
+            "value": "EU-DOC-DEMO-2026-001",
+            "unit": "",
+            "description": "虛構Demo ID，不代表實際EU Declaration of Conformity"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery37",
+        "Details": [
+          {
+            "value": "2026-01-01",
+            "unit": "",
+            "description": "示範製造日期"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery38",
+        "Details": [
+          {
+            "value": "4.8",
+            "unit": "kW",
+            "description": "依48V×100A之1C最大放電能力估算"
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery39",
+        "Details": [
+          {
+            "unit": "%/月",
+            "value": "2",
+            "description": "25°C條件下之初始自放電率Demo值",
+            "Temperature": {
+              "max": 60,
+              "min": -20,
+              "unit": "°C",
+              "description": "示範儲存溫度範圍，自放電率會隨溫度與儲存時間變化"
+            }
+          }
+        ]
+      },
+      {
+        "SpecInfo_Type": "Battery40",
+        "Details": [
+          {
+            "value": "0.00358",
+            "unit": "kg CO₂e/kWh",
+            "description": "依示範電池碳足跡68.72kg CO₂e及預期生命週期總供電量19,200kWh計算之Demo值"
+          }
+        ]
+      }
+    ],
+    "CFPValue": 68.7,
+    "CFPEmissionUnit": "kg CO2e",
+    "CFPFunctionUnit": "1 kWh battery capacity",
+    "CFPDate": "2026-06-30",
+    "ProdInfoLink": {
+      "ProdWebPageLink": "https://example.org/battery-demo",
+      "ProductManualLink": "https://example.org/battery-demo/user-manual.pdf",
+      "MaintenanceManualLink": "https://example.org/battery-demo/repair-manual.pdf"
+    },
+    "Description": "二次鋰電池護照開源系統示範資料，僅供功能展示與測試使用。",
+    "ProdPhoto": {
+      "imgOne": "",
+      "imgTwo": "",
+      "imgThree": ""
+    }
+  },
+  "MandatoryCertification": [
+    {
+      "CertName": 5,
+      "CertificateNo": "DEMO-CE-BAT-2026-001",
+      "CertificationBody": "Open Battery Demo Laboratory",
+      "CertLink": "https://example.org/battery-demo/certificates/ce",
+      "StartDate": "2026-01-01",
+      "EndDate": "2031-01-01"
+    }
+  ],
+  "VoluntaryCertification": [
+    {
+      "CertName": 4,
+      "CertificateNo": "DEMO-CFV-2026-001",
+      "CertificationBody": "Open Carbon Verification Demo",
+      "CertLink": "https://example.org/battery-demo/certificates/cfv",
+      "StartDate": "2026-06-30",
+      "EndDate": "2029-06-30"
+    }
+  ],
+  "Material": [
+    {
+      "MaterType": 1,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "鋁(Aluminium)",
+          "weight": 6.8,
+          "unit": "kg",
+          "error_value": 0.3
+        },
+        {
+          "composition_type": "1",
+          "composition": "銅(Copper)",
+          "weight": 4.6,
+          "unit": "kg",
+          "error_value": 0.2
+        },
+        {
+          "composition_type": "1",
+          "composition": "鋼(Steel)",
+          "weight": 7.5,
+          "unit": "kg",
+          "error_value": 0.3
+        },
+        {
+          "composition_type": "2",
+          "composition": "塑膠及高分子材料(Plastics and Polymers)",
+          "weight": 2.8,
+          "unit": "kg",
+          "error_value": 0.2
+        }
+      ]
+    },
+    {
+      "MaterType": 2,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "鋰(Lithium)",
+          "weight": 0.95,
+          "unit": "kg",
+          "error_value": 0.05
+        },
+        {
+          "composition_type": "1",
+          "composition": "鋁(Aluminium)",
+          "weight": 6.8,
+          "unit": "kg",
+          "error_value": 0.3
+        },
+        {
+          "composition_type": "1",
+          "composition": "銅(Copper)",
+          "weight": 4.6,
+          "unit": "kg",
+          "error_value": 0.2
+        }
+      ]
+    },
+    {
+      "MaterType": 3,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "鉛(Lead)",
+          "weight": 0.1,
+          "unit": "kg",
+          "error_value": 0.01,
+          "parts": "電子控制模組及焊接材料",
+          "consumer_time": "",
+          "cas_no": "7439-92-1",
+          "clp_index_no": "082-014-00-7",
+          "hazard_class_and_category_code": "Repr. 1A,Lact.",
+          "concentration_range": "<0.1%"
+        }
+      ]
+    },
+    {
+      "MaterType": 4,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "回收鋁(Recovered Aluminium)",
+          "weight": 5.2,
+          "unit": "kg",
+          "error_value": 0.2,
+          "parts": "外殼／正極集流體",
+          "consumer_time": "消費後"
+        },
+        {
+          "composition_type": "1",
+          "composition": "回收銅(Recovered Copper)",
+          "weight": 4.1,
+          "unit": "kg",
+          "error_value": 0.15,
+          "parts": "負極集流體／導電部件",
+          "consumer_time": "消費後"
+        },
+        {
+          "composition_type": "1",
+          "composition": "回收鋼(Recovered Steel)",
+          "weight": 6.8,
+          "unit": "kg",
+          "error_value": 0.3,
+          "parts": "外殼／結構件",
+          "consumer_time": "消費後"
+        }
+      ]
+    },
+    {
+      "MaterType": 5,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "再生鋁(Recycled Aluminium)",
+          "weight": 2,
+          "unit": "kg",
+          "error_value": 0.1
+        },
+        {
+          "composition_type": "1",
+          "composition": "再生鋼(Recycled Steel)",
+          "weight": 3,
+          "unit": "kg",
+          "error_value": 0.2
+        },
+        {
+          "composition_type": "2",
+          "composition": "再生塑膠(Recycled Plastic)",
+          "weight": 0.8,
+          "unit": "kg",
+          "error_value": 0.05
+        }
+      ]
+    },
+    {
+      "MaterType": 6,
+      "Description": "本資料為開源電池護照示範用虛構資料。",
+      "Material": [
+        {
+          "composition_type": "1",
+          "composition": "鋰(Lithium)",
+          "weight": 0.95,
+          "unit": "kg",
+          "error_value": 0.05,
+          "parts": "正極材料"
+        }
+      ]
+    }
+  ],
+  "PEFInfo": [
+    {
+      "AssessmentDate": "2026-06-30",
+      "ImpactCategory": "1",
+      "CharacterizationResult": 68.72,
+      "NormalizationResult": 0.009,
+      "WeightingResult": 0.002,
+      "Unit": "kg CO₂e",
+      "LifeCycleStage": "2"
+    },
+    {
+      "AssessmentDate": "2026-06-30",
+      "ImpactCategory": "14",
+      "CharacterizationResult": 0.014,
+      "NormalizationResult": 0.003,
+      "WeightingResult": 0.001,
+      "Unit": "kg Sb eq",
+      "LifeCycleStage": "2"
+    }
+  ],
+  "TradeMark": [
+    {
+      "ApplicationNumber": "DEMO-TM-2026-001",
+      "TrademarkOffice": "Demo Trademark Registry",
+      "TrademarkName": "Open Battery Passport",
+      "TradeMarkLink": "https://example.org/battery-demo/trademark",
+      "CountryCode": "TW",
+      "Subdivision": "台北",
+      "StartDate": "2026-01-01",
+      "EndDate": "2036-01-01"
+    }
+  ],
+  "product_repair": [
+    {
+      "repair_date": "2028-05-10",
+      "repair_delivery_date": "2028-05-15",
+      "repair_info": [
+        {
+          "action_area": "臺灣",
+          "action_date": "2028-05-12",
+          "description": "檢測發現BMS通訊異常，更換控制模組並完成充放電功能測試。",
+          "repair_type": 1,
+          "component_name": "電池管理系統(BMS)"
+        },
+        {
+          "action_area": "臺灣",
+          "action_date": "2028-05-12",
+          "description": "更換示範用直流保險絲，完成絕緣及導通檢查。",
+          "repair_type": 2,
+          "component_name": "直流保險絲"
+        }
+      ]
+    }
+  ],
+  "product_recycle": [
+    {
+      "recycle_date": "2036-03-05",
+      "recycle_type": 1,
+      "recycle_addr_type": 2,
+      "recycle_addr": "Demo Recycling Site, Taiwan",
+      "execution_dec": "產品經收貨檢查及安全放電後，進行電池模組拆解與材料分類。鋁、銅及鋼材進入材料回收流程，電芯交由示範用電池材料回收程序處理。本紀錄僅供電池護照系統功能展示。",
+      "completed_date": "2036-03-12"
+    }
+  ]
+}
