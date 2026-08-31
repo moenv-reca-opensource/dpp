@@ -1,21 +1,21 @@
 <?php
 
-namespace App\Controller\Bff;
+namespace App\Controller\Backstage;
 
 use App\Controller\AbstractController;
 use App\Exception\ValidationException;
-use App\Service\RepairRepository;
+use App\Service\RecycleRepository;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
-class RepairController extends AbstractController
+class RecycleController extends AbstractController
 {
-    public function __construct(private readonly RepairRepository $repairRepository)
+    public function __construct(private readonly RecycleRepository $recycleRepository)
     {
     }
 
-    // 匯入維修紀錄,body 為 multipart/form-data,file 欄位放置 JSON 檔
-    // (檔案格式參考 storage/dpp/dpp_add_repair_v1.0.json 範例)
+    // 匯入回收紀錄,body 為 multipart/form-data,file 欄位放置 JSON 檔
+    // JSON 最外層為陣列,每個元素代表一筆回收紀錄
     public function import(Request $request, Response $response): Response
     {
         $file = $request->getUploadedFiles()['file'] ?? null;
@@ -28,6 +28,6 @@ class RepairController extends AbstractController
             throw new ValidationException('file content is not valid JSON', ['file']);
         }
 
-        return $this->json($response, $this->repairRepository->importBatch($document));
+        return $this->json($response, $this->recycleRepository->importBatch($document));
     }
 }

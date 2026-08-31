@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\Public;
+namespace App\Controller\Frontstage;
 
 use App\Controller\AbstractController;
 use App\Exception\UnauthorizedException;

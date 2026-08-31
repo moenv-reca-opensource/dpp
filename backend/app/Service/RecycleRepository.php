@@ -10,8 +10,8 @@ use Exception;
 // 回收紀錄以檔案儲存(專案暫無 DB),每筆護照(UID)可累積多次匯入的回收紀錄:
 // - storage/dpp/recycle-records/{UID}.json 為該護照全部回收紀錄的陣列
 //
-// dpp.import_recycle 收到的文件格式同 storage/dpp/dpp_add_recycle_v1.0.json 範例:陣列每個
-// 元素為一筆回收紀錄,對應既有護照的 UID。recycle_addr_type=2(自行填入)時 recycle_addr
+// dpp.import_recycle 收到的文件為陣列,每個元素代表一筆回收紀錄,對應既有護照的 UID。
+// recycle_addr_type=2(自行填入)時 recycle_addr
 // 才為必填,=1(使用公司地址)時毋須填入地址。比照 DppRepository::create() 的批次處理方式,
 // 每個元素各自獨立驗證與寫入,單一元素驗證失敗不影響其餘元素的匯入。
 class RecycleRepository
@@ -43,7 +43,7 @@ class RecycleRepository
         return is_array($records) ? $records : [];
     }
 
-    // $document 為陣列,每個元素代表一筆回收紀錄(見 dpp_add_recycle_v1.0.json 範例)
+    // $document 為陣列,每個元素代表一筆回收紀錄
     public function importBatch(array $document): array
     {
         $imported = [];

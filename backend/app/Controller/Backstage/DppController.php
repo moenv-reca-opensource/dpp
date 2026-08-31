@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\Bff;
+namespace App\Controller\Backstage;
 
 use App\Controller\AbstractController;
 use App\Exception\NotFoundException;
@@ -28,7 +28,7 @@ class DppController extends AbstractController
     }
 
     // 匯入 DPP 資料,body 為 multipart/form-data,file 欄位放置 JSON 檔
-    // (檔案格式參考 storage/dpp/dpp_add_bettery_v1.0.json 範例,與 add() 的 body 結構相同)
+    // (檔案格式參考 frontend/backstage/public/templates/dpp_add_battery_v1.0.json,與 add() 的 body 結構相同)
     public function import(Request $request, Response $response): Response
     {
         $file = $request->getUploadedFiles()['file'] ?? null;
@@ -96,13 +96,19 @@ class DppController extends AbstractController
     {
         $body = $this->getJsonBody($request);
         $uid = $this->sanitizeString($body['UID'] ?? '');
+        $record = $uid !== '' ? $this->dppRepository->find($uid) : null;
 
-        if ($uid === '' || $this->dppRepository->find($uid) === null) {
+        if ($record === null) {
             throw new NotFoundException('DPP not found');
         }
 
+        $dppInfo = $record['DPPInfo'] ?? [];
         $qrCodeService = new QrCodeService((string) getenv('PUBLIC_FRONTEND_URL'));
-        $result = $qrCodeService->generateForProduct($uid);
+        $result = $qrCodeService->generateForProduct(
+            (string) ($dppInfo['GTIN'] ?? ''),
+            (string) ($dppInfo['BatchLot'] ?? ''),
+            (string) ($record['SerialNo'] ?? '')
+        );
 
         $response->getBody()->write($result->getString());
 
