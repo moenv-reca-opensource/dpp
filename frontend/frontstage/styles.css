@@ -273,6 +273,45 @@ a:focus-visible,
   stroke: none;
 }
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: 0.25rem;
+  padding-left: 0.45rem;
+  border-left: 1px solid var(--line);
+}
+
+.language-switcher--page {
+  justify-content: flex-end;
+  margin: 0 0 0.75rem auto;
+  padding-left: 0;
+  border-left: 0;
+}
+
+.language-switcher a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.45rem;
+  color: var(--ink);
+  border-radius: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.language-switcher a:hover,
+.language-switcher a:focus-visible {
+  background: #edf4f8;
+}
+
+.language-switcher a[aria-current='page'] {
+  color: var(--blue-dark);
+  cursor: default;
+}
+
 .overview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -910,6 +949,7 @@ a:focus-visible,
 
   .passport-actions {
     width: 100%;
+    flex-wrap: wrap;
   }
 
   .carbon-summary {
@@ -984,6 +1024,7 @@ a:focus-visible,
   }
 
   .passport-actions,
+  .language-switcher,
   .tab-rail,
   .skip-link,
   .data-source-label {
