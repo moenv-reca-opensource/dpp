@@ -1,6 +1,6 @@
 # 電池產品數位護照公開前台
 
-本專案是一個以原生 HTML、CSS 與 JavaScript 製作的唯讀公開頁面，用來顯示單一電池產品的數位產品護照。頁面可搭配同一個儲存庫中的 `opensource/backend`，透過公開 API 即時取得護照資料。
+本專案是一個以原生 HTML、CSS 與 JavaScript 製作的唯讀公開頁面，用來顯示單一電池產品的產品數位護照。頁面可搭配同一個儲存庫中的 `opensource/backend`，透過公開 API 即時取得護照資料。
 
 本文件介紹專案用途、本機預覽、API 串接及基本部署方式，方便使用者快速了解與使用。
 
@@ -10,6 +10,7 @@
 - 顯示認證、材料、產品規格、商標及相關連結
 - 顯示維修與回收紀錄
 - 提供列印、電子郵件及社群分享入口
+- 提供中文及英文介面，英文版使用 `?lang=en` 網址參數
 - 支援鍵盤操作、頁籤切換、狀態提示及響應式版面
 - API 載入失敗時顯示錯誤訊息與重新讀取按鈕
 
@@ -30,6 +31,12 @@
 
 ```text
 /01/{GTIN}/10/{BatchLot}/21/{SerialNo}
+```
+
+英文介面可在相同產品網址加上 `?lang=en`；未指定或使用其他值時維持中文介面：
+
+```text
+/01/{GTIN}/10/{BatchLot}/21/{SerialNo}?lang=en
 ```
 
 例如：
@@ -160,6 +167,7 @@ Content-Type: application/json
 
 ```text
 index.html
+i18n.js
 app.js
 styles.css
 images/
@@ -225,6 +233,7 @@ Web 伺服器至少需要：
 ```text
 frontstage/
 ├── index.html     頁面結構與公開設定
+├── i18n.js        中文／英文介面文字與語系切換
 ├── app.js         API 載入、資料呈現與互動
 ├── styles.css     版面與響應式樣式
 ├── mock-data.js   本機版面預覽資料

@@ -1,4 +1,4 @@
-# 數位產品護照(DPP)開源版
+# 產品數位護照(DPP)開源版
 
 [![PHP 8.5](https://img.shields.io/badge/PHP-8.5-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![Slim 4.15.2](https://img.shields.io/badge/Slim-4.15.2-74A045)](https://www.slimframework.com/)
@@ -8,7 +8,7 @@
 
 ## 這是什麼
 
-DPP(Digital Product Passport,數位產品護照)是用於整合產品原料、製造、維修與回收等生命週期資訊的數位化資料,可供產品資訊揭露、追溯與查閱。
+DPP(Digital Product Passport,產品數位護照)是用於整合產品原料、製造、維修與回收等生命週期資訊的數位化資料,可供產品資訊揭露、追溯與查閱。
 
 本專案包含後端 API、後台管理介面與公開查閱前臺,可供開發者參考、本機測試與自行部署。
 
